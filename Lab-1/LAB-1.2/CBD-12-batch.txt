@@ -1,0 +1,20 @@
+SET usuario:1 "Alice"
+SET usuario:2 "Bob"
+SET usuario:3 "Carol"
+SET usuario:4 "David"
+SET usuario:5 "Eve"
+DEL usuario:5
+SET produto:101 '{"nome": "Camisa Mike Davis", "preco": 19.99}'
+SET produto:102 '{"nome": "Calças Feira", "preco": 29.99}'
+SET produto:103 '{"nome": "Air Max", "preco": 49.99}'
+RPUSH carrinho:1 101 102
+RPUSH carrinho:2 103
+HSET pedido:1 status "pendente" total 79.97
+HSET pedido:2 status "processando" total 49.99
+SADD categorias:roupas "produto:101" "produto:102"
+ZADD ranking_vendas 100 "produto:101"
+ZADD ranking_vendas 50 "produto:102"
+ZADD ranking_vendas 75 "produto:103"
+HMSET usuario:6 nome "Olivia" idade 30 cidade "Nova York"
+HGETALL usuario:6
+HDEL usuario:6 idade cidade

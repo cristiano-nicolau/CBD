@@ -1,0 +1,21 @@
+ping
+get key 
+get mykey
+KEYS *
+VALUES *
+VALUES 
+get key 5004
+key 5004
+mykey 5004
+5004
+get 5004
+SET MelhorJogadorDoMundo "Ronaldo"
+GET MelhorJogadorDoMundo
+HSET jogador1 nome "Cristiano Roanldo" clube "Al-Nasr" idade 38 posiçao "Ponta de lança" status "Melhor do Mundo"  
+HGET jogador1 nome
+DEL MElhorJogadorDoMundo 
+DEL MelhorJogadorDoMundo 
+GET MelhorJogadorDoMundo 
+HGET jogador1 status
+RPUSH ultimos_jogos "Al-Nasr vs Celta Vigo"
+HGETALL jogador1
