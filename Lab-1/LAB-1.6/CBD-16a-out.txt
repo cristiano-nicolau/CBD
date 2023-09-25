@@ -1,0 +1,149 @@
+
+----------- SISTEMA DE MENSAGENS -----------
+1 -> Criar Utilizador 
+2 -> Enviar Mensagem 
+3 -> Adicionar Amigo 
+4 -> Ler Mensagens 
+5 -> Listar Utilizadores 
+6 -> SAIR 
+Escolha a sua opção: 1
+Digite o nome do utilizador: 
+Maria
+
+----------- SISTEMA DE MENSAGENS -----------
+1 -> Criar Utilizador 
+2 -> Enviar Mensagem 
+3 -> Adicionar Amigo 
+4 -> Ler Mensagens 
+5 -> Listar Utilizadores 
+6 -> SAIR 
+Escolha a sua opção: 1
+Digite o nome do utilizador: 
+Rita
+
+----------- SISTEMA DE MENSAGENS -----------
+1 -> Criar Utilizador 
+2 -> Enviar Mensagem 
+3 -> Adicionar Amigo 
+4 -> Ler Mensagens 
+5 -> Listar Utilizadores 
+6 -> SAIR 
+Escolha a sua opção: 1
+Digite o nome do utilizador: 
+Mario
+
+----------- SISTEMA DE MENSAGENS -----------
+1 -> Criar Utilizador 
+2 -> Enviar Mensagem 
+3 -> Adicionar Amigo 
+4 -> Ler Mensagens 
+5 -> Listar Utilizadores 
+6 -> SAIR 
+Escolha a sua opção: 1
+Digite o nome do utilizador: 
+Artur
+
+----------- SISTEMA DE MENSAGENS -----------
+1 -> Criar Utilizador 
+2 -> Enviar Mensagem 
+3 -> Adicionar Amigo 
+4 -> Ler Mensagens 
+5 -> Listar Utilizadores 
+6 -> SAIR 
+Escolha a sua opção: 3
+Digite o seu nome de utilizador: 
+Maria
+Digite o nome de utilizador do amigo: 
+Mario
+Maria adicionou Mario aos amigos.
+
+----------- SISTEMA DE MENSAGENS -----------
+1 -> Criar Utilizador 
+2 -> Enviar Mensagem 
+3 -> Adicionar Amigo 
+4 -> Ler Mensagens 
+5 -> Listar Utilizadores 
+6 -> SAIR 
+Escolha a sua opção: 3
+Digite o seu nome de utilizador: 
+Artur
+Digite o nome de utilizador do amigo: 
+Rita
+Artur adicionou Rita aos amigos.
+
+----------- SISTEMA DE MENSAGENS -----------
+1 -> Criar Utilizador 
+2 -> Enviar Mensagem 
+3 -> Adicionar Amigo 
+4 -> Ler Mensagens 
+5 -> Listar Utilizadores 
+6 -> SAIR 
+Escolha a sua opção: 2
+Digite o seu nome de utilizador: 
+Artur
+Digite a mensagem: 
+Ola Rita
+
+----------- SISTEMA DE MENSAGENS -----------
+1 -> Criar Utilizador 
+2 -> Enviar Mensagem 
+3 -> Adicionar Amigo 
+4 -> Ler Mensagens 
+5 -> Listar Utilizadores 
+6 -> SAIR 
+Escolha a sua opção: 2
+Digite o seu nome de utilizador: 
+Maria
+Digite a mensagem: 
+Ola Mario
+
+----------- SISTEMA DE MENSAGENS -----------
+1 -> Criar Utilizador 
+2 -> Enviar Mensagem 
+3 -> Adicionar Amigo 
+4 -> Ler Mensagens 
+5 -> Listar Utilizadores 
+6 -> SAIR 
+Escolha a sua opção: 4
+Digite o nome do utilizador: 
+Mario
+Mensagens para Mario:
+De: Maria, Mensagem: Ola Mario
+
+----------- SISTEMA DE MENSAGENS -----------
+1 -> Criar Utilizador 
+2 -> Enviar Mensagem 
+3 -> Adicionar Amigo 
+4 -> Ler Mensagens 
+5 -> Listar Utilizadores 
+6 -> SAIR 
+Escolha a sua opção: 4
+Digite o nome do utilizador: 
+Rita
+Mensagens para Rita:
+De: Artur, Mensagem: Ola Rita
+
+----------- SISTEMA DE MENSAGENS -----------
+1 -> Criar Utilizador 
+2 -> Enviar Mensagem 
+3 -> Adicionar Amigo 
+4 -> Ler Mensagens 
+5 -> Listar Utilizadores 
+6 -> SAIR 
+Escolha a sua opção: 5
+Lista de Utilizadores:
+Rita
+Artur
+Maria
+Mario
+
+----------- SISTEMA DE MENSAGENS -----------
+1 -> Criar Utilizador 
+2 -> Enviar Mensagem 
+3 -> Adicionar Amigo 
+4 -> Ler Mensagens 
+5 -> Listar Utilizadores 
+6 -> SAIR 
+Escolha a sua opção: 6
+
+Obrigado.

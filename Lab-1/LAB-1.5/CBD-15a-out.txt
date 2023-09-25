@@ -1,0 +1,24 @@
+Sistema de atendimento A:
+O sistema atende, para cada utilizador, um máximo de  10 de produtos diferentes a cada 60 segundos.
+*******************
+
+Pedido aceite: Ronaldo - Bola de Ouro - Novo pedido
+Pedido aceite: Ronaldo - Bola de Ouro - Pedido existente
+Pedido aceite: Ronaldo - Bola de Ouro - Pedido existente
+Pedido aceite: Ronaldo - Bola de Ouro - Pedido existente
+Pedido aceite: Ronaldo - Bola de Ouro - Pedido existente
+Pedido aceite: Ronaldo - Bola de Ouro - Pedido existente
+Pedido aceite: Ronaldo - Bola de Ouro - Pedido existente
+Pedido aceite: Ronaldo - Bola de Ouro - Pedido existente
+Pedido aceite: João - Redis - Novo pedido
+Pedido aceite: João - Redis - Pedido existente
+Pedido aceite: João - Redis - Pedido existente
+Pedido aceite: João - Redis - Pedido existente
+Pedido aceite: João - Redis - Pedido existente
+Pedido aceite: João - Redis - Pedido existente
+Pedido aceite: João - Redis - Pedido existente
+Pedido aceite: João - Redis - Pedido existente
+Pedido aceite: João - Redis - Pedido existente
+Pedido aceite: João - Redis - Pedido existente
+Pedido recusado - João : Limite máximo de pedidos atingido.
+Pedido recusado - João : Limite máximo de pedidos atingido.

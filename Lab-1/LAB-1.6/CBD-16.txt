@@ -1,0 +1,17 @@
+Estruturas usadas:
+
+1. Adicionar Utilizadores:
+    - Ao criar um novo utilizador, o username(inserido pelo utilizador), é adicionado ao Set qu tem chave "utilizadores".
+
+2. Adicionar Amigos:
+    - Ao adicionar um amigo, o usernameA e o usernameB (inseridos pelo utilizador), é adicionado ao Set que tem chave "seguidores:{usernameA}", ou seja o usernameB é um seguidor do usernameA.
+
+3. Enviar SMS:
+    - Ao enviar uma mensagem, usernameA e mensagem sao inseridos pelo o utilizador, é gerado um id unico de mensagem id, e os detalhes da mensagem sao guardados em uma hash com a chave "mensagem:{id}".
+    - O id da mensagem é adicionado a uma lista com a chave "mensagens:{username}".
+
+4. Listar Mensagens:
+    - Para listar mensagens, os ids das mensagens sao recuperados da lista "mensagens:{utilizador}" e depois na lista "mensagem:{ids}".
+
+5. Listar Utilizadores:
+    - Para listar todos os utilizadores, todos os valores do set com cahve "utilizadores" são imprimidos.

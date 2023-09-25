@@ -2,5 +2,13 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "/home/cristiano/Transferências/jedis-5.0.0.jar"
+    ],
+    "java.project.sourcePaths": [
+        "redis/src/ex3",
+        "redis/src",
+        "LAB-1.5",
+        "LAB-1.4",
+        "LAB-1.3",
+        "LAB-1.6"
     ]
 }

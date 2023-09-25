@@ -1,34 +1,22 @@
-package ex4;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
-
 
 import redis.clients.jedis.Jedis;
 
-public class autocompleteB {
+public class autocompleteA {
     public static void main(String[] args) {
         Jedis jedis = new Jedis();
-        String fileName = "redis/src/ex4/nomes-pt-2021.csv"; 
-        List<String> namesResult = new ArrayList<>();
+        String fileName = "LAB-1.4/names.txt"; 
+        List<String> ResultadosAutoComplete;
 
         try {
             BufferedReader reader = new BufferedReader(new FileReader(fileName));
             String line;
             while ((line = reader.readLine()) != null) {
-
-                String[] parts = line.split(";");
-
-                if (parts.length == 2){
-                
-                    String nome = parts[0].trim(); 
-                    String popularidade = parts[1].trim();
-                     
-                    jedis.zadd("autocompleteB", Integer.parseInt(popularidade), nome);
-                }  
+                jedis.zadd("autocomplete", 0, line); 
             }
             reader.close();
         } catch (IOException e){
@@ -41,13 +29,12 @@ public class autocompleteB {
            
             if (prefixo.isEmpty()) break;
 
-            namesResult = jedis.zrevrange("autocompleteB",0,-1);
+            ResultadosAutoComplete = jedis.zrangeByLex("autocomplete", "[" + prefixo, "[" + prefixo + "~");
+             // o "~" tem maior ASCII value que qualquer caracter do alfabeto, garantindo assim que todos os  nomes sao adicionados a lista, se começarem pelo prefixo escolhido pelo utilizador
 
-            for (String nome : namesResult){
-                if (nome.startsWith(prefixo)){
-                    System.out.println(nome);
-                }
-            }
+            for (String resultados : ResultadosAutoComplete) {
+               System.out.println(resultados);
+           }
         }
 
         jedis.close();

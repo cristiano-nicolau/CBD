@@ -1,0 +1,30 @@
+Sistema de atendimento B:
+O sistema atende, para cada utilizador, um máximo de  12 unidades de produtos a cada 20 segundos.
+*******************
+
+Pedido aceite: Ronaldo - Bola de Ouro - Quantidade: 2 - Novo pedido
+Pedido aceite: Ronaldo - Bola de Ouro - Quantidade: 4 - Pedido existente
+Pedido aceite: Ronaldo - Bola de Ouro - Quantidade: 6 - Pedido existente
+Pedido aceite: Ronaldo - Bola de Ouro - Quantidade: 8 - Pedido existente
+Pedido aceite: Ronaldo - Bola de Ouro - Quantidade: 10 - Pedido existente
+Pedido aceite: Ronaldo - Bola de Ouro - Quantidade: 12 - Pedido existente
+Pedido recusado - Ronaldo: Limite máximo de quantidade atingido.
+Pedido recusado - Ronaldo: Limite máximo de quantidade atingido.
+Pedido recusado - Ronaldo: Limite máximo de quantidade atingido.
+
+ O João envia pedidos de 2 em 2  segundos.
+
+Pedido aceite: João - Redis - Quantidade: 1 - Novo pedido
+Pedido aceite: João - Redis - Quantidade: 2 - Pedido existente
+Pedido aceite: João - Redis - Quantidade: 3 - Pedido existente
+Pedido aceite: João - Redis - Quantidade: 4 - Pedido existente
+Pedido aceite: João - Redis - Quantidade: 5 - Pedido existente
+Pedido aceite: João - Redis - Quantidade: 6 - Pedido existente
+Pedido aceite: João - Redis - Quantidade: 7 - Pedido existente
+Pedido aceite: João - Redis - Quantidade: 8 - Pedido existente
+Pedido aceite: João - Redis - Quantidade: 9 - Pedido existente
+Pedido aceite: João - Redis - Quantidade: 10 - Pedido existente
+Pedido aceite: João - Redis - Quantidade: 1 - Novo pedido
+Pedido aceite: João - Redis - Quantidade: 2 - Pedido existente
+Pedido aceite: João - Redis - Quantidade: 3 - Pedido existente
+Pedido aceite: João - Redis - Quantidade: 4 - Pedido existente
