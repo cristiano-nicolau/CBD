@@ -222,3 +222,15 @@ mydb> db.dropDatabase()
 - db.empDetails.deleteMany( { First_Name: "Radhika" } ) : To delete multiple documents in a collection where First_Name is "Radhika"
 - db.empDetails.drop() : To delete a collection called "empDetails"
 - db.dropDatabase() : To delete a database called "mydb"
+
+
+$gt = greater than (maior que)
+$gte = greater or equal than (maior ou igual a)
+$lt = lesser then (menor do que)
+$lte = lesser or equal than (menor ou igual a)
+$ne = not equal (diferente de)
+$in = inside an array of values [a,b]
+$nin = outside an array of values [^a,^b]
+$and = logical and between two conditions 
+$not = negation of condition 
+$nor = nor operation between two conditions 
