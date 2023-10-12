@@ -390,11 +390,19 @@ db.restaurants.find({localidade: "Brooklyn", gastronomia: {$ne: "American"}, "gr
 ....]
 
 // 19. Indique o número total de avaliações (numGrades) na coleção.
-db.restaurants.aggregate([{$project: {numGrades: {$size: "$grades"}}}])
-[
-  { _id: ObjectId("651acd95b941e24c3722b67a"), numGrades: 4 },
-  { _id: ObjectId("651acd95b941e24c3722b67b"), numGrades: 4 },
-......]
+db.restaurants.aggregate([
+  {
+    $unwind: "$grades"
+  },
+  {
+    $group: {
+      _id: null,
+      totalGrades: { $sum: 1 }
+    }
+  }
+])
+[ { _id: null, totalGrades: 18142 } ]
+
 
 // 20. Apresente o nome e número de avaliações (numGrades) dos 3 restaurante com mais avaliações.
 db.restaurants.aggregate([{$project: {_id: 0,nome: 1,numGrades: { $size: "$grades" }}},{$sort: { numGrades: -1 }},{$limit: 3}])

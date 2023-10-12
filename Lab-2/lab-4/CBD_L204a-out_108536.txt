@@ -1,0 +1,11 @@
+
+Limite maximo de 3  pedidos por utilizador por 1 minuto(s):
+
+Pedido atendido para user1 - product1
+Pedido atendido para user2 - product2
+Pedido atendido para user1 - product1
+Pedido atendido para user2 - product2
+Pedido atendido para user1 - product1
+Pedido atendido para user2 - product2
+Limite excedido. Pedido não atendido para user1 - product1
+Limite excedido. Pedido não atendido para user2 - product2
