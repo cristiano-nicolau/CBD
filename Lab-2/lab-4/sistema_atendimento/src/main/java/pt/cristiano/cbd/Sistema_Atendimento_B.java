@@ -14,8 +14,8 @@ public class Sistema_Atendimento_B {
     private MongoClient mongoClient;
     private MongoDatabase database;
     private MongoCollection<Document> collection;
-    private static final int Quantidade_Limite = 20;
-    private static final int TimeSlot = 60;
+    private static final int Quantidade_Limite = 25;
+    private static final int TimeSlot = 30;
 
     public Sistema_Atendimento_B(String databaseName) {
         mongoClient = MongoClients.create();
@@ -23,7 +23,7 @@ public class Sistema_Atendimento_B {
         collection = database.getCollection("product_quantity_requests");
     }
 
-    public void requestProduct(String username, String product, int quantity) {
+        public void requestProduct(String username, String product, int quantity) {
         Date currentTime = new Date();
         Date timeAgo = new Date(currentTime.getTime() - TimeUnit.MINUTES.toMillis(TimeSlot));
 
@@ -38,7 +38,7 @@ public class Sistema_Atendimento_B {
         }
 
         if (totalQuantity + quantity > Quantidade_Limite) {
-            System.out.println("Limite excedido. Pedido não atendido para " + username + " - " + product);
+            System.out.println("Limite excedido. Pedido não atendido para " + username + " - " + product + " (Quantidade: " + quantity + ")");
         } else {
             Document requestDocument = new Document()
                     .append("username", username)
@@ -46,7 +46,7 @@ public class Sistema_Atendimento_B {
                     .append("quantity", quantity)
                     .append("timestamp", currentTime);
             collection.insertOne(requestDocument);
-            System.out.println("Pedido atendido para " + username + " - " + product + " (Quantidade: " + quantity + ")");
+            System.out.println("Pedido atendido para " + username + " - " + product + " (Quantidade existente: " + totalQuantity + ")" + " (Quantidade pedida: " + quantity + ")" + " (Quantidade total: " + (totalQuantity + quantity) + ")");
         }
     }
 
@@ -61,8 +61,11 @@ public class Sistema_Atendimento_B {
 
         String username2 = "user2";
         String product2 = "product2";
-        int quantity2 = 25;
+        int quantity2 = 20;
 
+        sistema.requestProduct(username1, product1, quantity1);
+        sistema.requestProduct(username2, product2, quantity2);
+        sistema.requestProduct(username1, product1, quantity1);
         sistema.requestProduct(username1, product1, quantity1);
         sistema.requestProduct(username2, product2, quantity2);
     }

@@ -1,0 +1,525 @@
+Designação;Estado;Desiggrupo;Designação Linha;Freguesia;Município;Distrito
+Tuy;Com Exploração;Estação;Rede Espanhola;;;
+Maceda;Com Exploração;Estação;Linha do Norte;Maceda;OVAR;AVEIRO
+Tamel;Com Exploração;Estação;Linha do Minho;Aborim;BARCELOS;BRAGA
+Santos;Com Exploração;Apeadeiro;Linha de Cascais;Estrela;LISBOA;LISBOA
+Moscavide;Com Exploração;Apeadeiro;Linha do Norte;Moscavide e Portela;LOURES;LISBOA
+Valença;Com Exploração;Estação;Linha do Minho;Valença, Cristelo Covo e Arão;VALENÇA;VIANA DO CASTELO
+Midões;Com Exploração;Estação;Linha do Minho;Gamil e Midões;BARCELOS;BRAGA
+São João da Madeira;Com Exploração;Estação;Linha do Vouga;São João da Madeira;SÃO JOÃO DA MADEIRA;AVEIRO
+Vila das Aves ;Com Exploração;Estação;Linha de Guimarães;Aves;SANTO TIRSO;PORTO
+Tua;Com Exploração;Estação;Linha do Douro;Castanheiro do Norte e Ribalonga;CARRAZEDA DE ANSIÃES;BRAGANÇA
+Espinho-Vouga;Com Exploração;Estação;Linha do Vouga;Espinho;ESPINHO;AVEIRO
+Silva;Com Exploração;Apeadeiro;Linha do Minho;Silva;BARCELOS;BRAGA
+São Pedro da Torre;Com Exploração;Estação;Linha do Minho;São Pedro da Torre;VALENÇA;VIANA DO CASTELO
+Vila Nova da Raínha;Com Exploração;Apeadeiro;Linha do Norte;Vila Nova da Rainha;AZAMBUJA;LISBOA
+Estarreja;Com Exploração;Estação;Linha do Norte;Beduído e Veiros;ESTARREJA;AVEIRO
+Branca;Com Exploração;Apeadeiro;Linha do Vouga;Branca;ALBERGARIA-A-VELHA;AVEIRO
+Valongo-Vouga;Com Exploração;Apeadeiro;Linha do Vouga;Valongo do Vouga;ÁGUEDA;AVEIRO
+Mirão;Com Exploração;Apeadeiro;Linha do Douro;Santa Cruz do Douro e São Tomé de Covelas;BAIÃO;PORTO
+Oliveira;Com Exploração;Apeadeiro;Linha do Douro;Vila Meã;AMARANTE;PORTO
+Famalicão;Com Exploração;Estação;Linha do Minho;Vila Nova de Famalicão e Calendário;VILA NOVA DE FAMALICÃO;BRAGA
+Covas;Com Exploração;Apeadeiro;Linha de Guimarães;Urgezes;GUIMARÃES;BRAGA
+Darque;Com Exploração;Estação;Linha do Minho;Darque;VIANA DO CASTELO;VIANA DO CASTELO
+Seiça-Ourém;Com Exploração;Apeadeiro;Linha do Norte;Seiça;OURÉM;SANTARÉM
+Alferrarede;Com Exploração;Estação;Linha da Beira Baixa;Abrantes (São Vicente e São João) e Alferrarede;ABRANTES;SANTARÉM
+Fernando Pó;Com Exploração;Apeadeiro;Linha do Alentejo;Poceirão e Marateca;PALMELA;SETÚBAL
+Aveiro - Vouga;Com Exploração;Estação;Linha do Vouga;Esgueira;AVEIRO;AVEIRO
+São Romão;Com Exploração;Estação;Linha do Minho;Coronado (São Romão e São Mamede);TROFA;PORTO
+Freixo de Numão;Com Exploração;Apeadeiro;Linha do Douro;Vila Nova de Foz Côa;VILA NOVA DE FOZ CÔA;GUARDA
+Benquerenças;Com Exploração;Apeadeiro;Linha da Beira Baixa;Benquerenças;CASTELO BRANCO;CASTELO BRANCO
+Fungalvaz Resguardo;Com Exploração;Estação;Linha do Norte;Madalena e Beselga;TOMAR;SANTARÉM
+Alcainça-Moinhos;Com Exploração;Apeadeiro;Linha do Oeste;Malveira e São Miguel de Alcainça;MAFRA;LISBOA
+Pereirinhas;Com Exploração;Apeadeiro;Linha de Guimarães;Moreira de Cónegos;GUIMARÃES;BRAGA
+São Frutuoso;Com Exploração;Estação;Linha do Minho;Folgosa;MAIA;PORTO
+Vila Franca de Xira;Com Exploração;Apeadeiro;Linha do Norte;Vila Franca de Xira;VILA FRANCA DE XIRA;LISBOA
+Couto de Cucujães;Com Exploração;Apeadeiro;Linha do Vouga;Vila de Cucujães;OLIVEIRA DE AZEMÉIS;AVEIRO
+Oliveira de Azeméis;Com Exploração;Estação;Linha do Vouga;O. Azeméis, Riba-Ul, Ul, Macinhata da Seixa, Madail;OLIVEIRA DE AZEMÉIS;AVEIRO
+Carreço;Com Exploração;Apeadeiro;Linha do Minho;Carreço;VIANA DO CASTELO;VIANA DO CASTELO
+Afife ;Com Exploração;Apeadeiro;Linha do Minho;Afife;VIANA DO CASTELO;VIANA DO CASTELO
+Simões;Com Exploração;Apeadeiro;Linha do Norte;Soure;SOURE;COIMBRA
+Taipa - Requeixo;Com Exploração;Apeadeiro;Linha do Vouga;Requeixo, Nossa Senhora de Fátima e Nariz;AVEIRO;AVEIRO
+Marco de Canaveses;Com Exploração;Estação;Linha do Douro;Marco;MARCO DE CANAVESES;PORTO
+Vila Nova de Anços;Com Exploração;Apeadeiro;Linha do Norte;Vila Nova de Anços;SOURE;COIMBRA
+Sanfins;Com Exploração;Apeadeiro;Linha do Vouga;Santa Maria da Feira, Travanca, Sanfins e Espargo;SANTA MARIA DA FEIRA;AVEIRO
+São Mamede de Infesta;Com Exploração;Estação;Linha de Leixões;São Mamede de Infesta e Senhora da Hora;MATOSINHOS;PORTO
+Ferreiros;Com Exploração;Apeadeiro;Ramal de Braga;Ferreiros e Gondizalves;BRAGA;BRAGA
+Contumil;Com Exploração;Estação;Linha do Minho;Campanhã;PORTO;PORTO
+Meinedo;Com Exploração;Apeadeiro;Linha do Douro;Meinedo;LOUSADA;PORTO
+Rio Tinto;Com Exploração;Apeadeiro;Linha do Minho;Rio Tinto;GONDOMAR;PORTO
+Cête;Com Exploração;Estação;Linha do Douro;Cete;PAREDES;PORTO
+Vila Meã;Com Exploração;Estação;Linha do Douro;Vila Meã;AMARANTE;PORTO
+Caxarias;Com Exploração;Estação;Linha do Norte;Caxarias;OURÉM;SANTARÉM
+Entroncamento;Com Exploração;Estação;Linha do Norte;Nossa Senhora de Fátima;ENTRONCAMENTO;SANTARÉM
+Senhora da Agonia;Com Exploração;Apeadeiro;Linha do Minho;Caminha (Matriz) e Vilarelho;CAMINHA;VIANA DO CASTELO
+Ermida;Com Exploração;Estação;Linha do Douro;Santa Marinha do Zêzere;BAIÃO;PORTO
+Mealhada Norte;Com Exploração;Estação;Linha do Norte;Mealhada, Ventosa do Bairro e Antes;MEALHADA;AVEIRO
+Avanca;Com Exploração;Apeadeiro;Linha do Norte;Avanca;ESTARREJA;AVEIRO
+Santana Cartaxo Resguardo;Com Exploração;Estação;Linha do Norte;Vila Chã de Ourique;CARTAXO;SANTARÉM
+Braga;Com Exploração;Estação;Ramal de Braga;Braga (Maximinos, Sé e Cividade);BRAGA;BRAGA
+Cuca;Com Exploração;Apeadeiro;Linha de Guimarães;Moreira de Cónegos;GUIMARÃES;BRAGA
+Travassô;Com Exploração;Apeadeiro;Linha do Vouga;Travassô e Óis da Ribeira;ÁGUEDA;AVEIRO
+Salreu;Com Exploração;Apeadeiro;Linha do Norte;Salreu;ESTARREJA;AVEIRO
+São João de Ver;Com Exploração;Apeadeiro;Linha do Vouga;São João de Ver;SANTA MARIA DA FEIRA;AVEIRO
+Pelariga;Com Exploração;Apeadeiro;Linha do Norte;Pelariga;POMBAL;LEIRIA
+Meia Praia;Com Exploração;Apeadeiro;Linha do Algarve;São Gonçalo de Lagos;LAGOS;FARO
+Castanheira do Ribatejo;Com Exploração;Estação;Linha do Norte;Castanheira do Ribatejo e Cachoeiras;VILA FRANCA DE XIRA;LISBOA
+Granja;Com Exploração;Estação;Linha do Norte;São Félix da Marinha;VILA NOVA DE GAIA;PORTO
+Ul;Com Exploração;Apeadeiro;Linha do Vouga;O. Azeméis, Riba-Ul, Ul, Macinhata da Seixa, Madail;OLIVEIRA DE AZEMÉIS;AVEIRO
+Monte de Paramos;Com Exploração;Apeadeiro;Linha do Vouga;Paramos;ESPINHO;AVEIRO
+Bobadela ;Com Exploração;Apeadeiro;Linha do Norte;Santa Iria de Azoia, São João da Talha e Bobadela;LOURES;LISBOA
+Livração;Com Exploração;Estação;Linha do Douro;Constance;MARCO DE CANAVESES;PORTO
+Algés;Com Exploração;Estação;Linha de Cascais;Algés, Linda-a-Velha e Cruz Quebrada-Dafundo;OEIRAS;LISBOA
+Francelos;Com Exploração;Apeadeiro;Linha do Norte;Gulpilhares e Valadares;VILA NOVA DE GAIA;PORTO
+Olhão;Com Exploração;Estação;Linha do Algarve;Olhão;OLHÃO;FARO
+Tavira;Com Exploração;Estação;Linha do Algarve;Tavira (Santa Maria e Santiago);TAVIRA;FARO
+Oronhe;Com Exploração;Apeadeiro;Linha do Vouga;Recardães e Espinhel;ÁGUEDA;AVEIRO
+Paços de Brandão;Com Exploração;Estação;Linha do Vouga;Paços de Brandão;SANTA MARIA DA FEIRA;AVEIRO
+Pinheiro da Bemposta;Com Exploração;Estação;Linha do Vouga;Pinheiro da Bemposta, Travanca e Palmaz;OLIVEIRA DE AZEMÉIS;AVEIRO
+Setúbal-Mar;Com Exploração;Estação;Linha do Sul;Setúbal (São Sebastião);SETÚBAL;SETÚBAL
+Bobadela Sul (Inserção C. Mer. Bobadela lado Oriente);Com Exploração;Mercadorias;Linha do Norte;Santa Iria de Azoia, São João da Talha e Bobadela;LOURES;LISBOA
+Casal do Álvaro;Com Exploração;Apeadeiro;Linha do Vouga;Recardães e Espinhel;ÁGUEDA;AVEIRO
+Pereira;Com Exploração;Apeadeiro;Linha do Norte;Pereira;MONTEMOR-O-VELHO;COIMBRA
+Albergaria-a-Velha;Com Exploração;Estação;Linha do Vouga;Albergaria-a-Velha e Valmaior;ALBERGARIA-A-VELHA;AVEIRO
+Taveiro;Com Exploração;Estação;Linha do Norte;Taveiro, Ameal e Arzila;COIMBRA;COIMBRA
+Santiago de Riba-Ul;Com Exploração;Apeadeiro;Linha do Vouga;O. Azeméis, Riba-Ul, Ul, Macinhata da Seixa, Madail;OLIVEIRA DE AZEMÉIS;AVEIRO
+Espinho;Com Exploração;Apeadeiro;Linha do Norte;Espinho;ESPINHO;AVEIRO
+Paraimo;Com Exploração;Apeadeiro;Linha do Norte;Sangalhos;ANADIA;AVEIRO
+Carapeços;Com Exploração;Apeadeiro;Linha do Minho;Carapeços;BARCELOS;BRAGA
+Recezinhos;Com Exploração;Apeadeiro;Linha do Douro;Castelões;PENAFIEL;PORTO
+Esmeriz;Com Exploração;Apeadeiro;Linha do Minho;Esmeriz e Cabeçudos;VILA NOVA DE FAMALICÃO;BRAGA
+Trancoso;Com Exploração;Apeadeiro;Linha do Douro;Recarei;PAREDES;PORTO
+Aveleda;Com Exploração;Apeadeiro;Ramal de Braga;Celeirós, Aveleda e Vimieiro;BRAGA;BRAGA
+Vila Pouca do Campo;Com Exploração;Apeadeiro;Linha do Norte;Taveiro, Ameal e Arzila;COIMBRA;COIMBRA
+Curia;Com Exploração;Apeadeiro;Linha do Norte;Tamengos, Aguim e Óis do Bairro;ANADIA;AVEIRO
+Terronhas;Com Exploração;Apeadeiro;Linha do Douro;Recarei;PAREDES;PORTO
+Senhora das Neves;Com Exploração;Apeadeiro;Linha do Minho;Vila de Punhe;VIANA DO CASTELO;VIANA DO CASTELO
+Carregado Norte;Com Exploração;Estação;Linha do Norte;Carregado e Cadafais;ALENQUER;LISBOA
+General Torres;Com Exploração;Estação;Linha do Norte;Santa Marinha e São Pedro da Afurada;VILA NOVA DE GAIA;PORTO
+Coimbra B;Com Exploração;Estação;Linha do Norte;Eiras e São Paulo de Frades;COIMBRA;COIMBRA
+Mazagão;Com Exploração;Apeadeiro;Ramal de Braga;Celeirós, Aveleda e Vimieiro;BRAGA;BRAGA
+Portela;Com Exploração;Apeadeiro;Linha do Minho;Covelas;TROFA;PORTO
+Mouquim;Com Exploração;Apeadeiro;Linha do Minho;Lemenhe, Mouquim e Jesufrei;VILA NOVA DE FAMALICÃO;BRAGA
+Castelo Novo;Com Exploração;Estação;Linha da Beira Baixa;Castelo Novo;FUNDÃO;CASTELO BRANCO
+Giesteira;Com Exploração;Apeadeiro;Linha de Guimarães;Lordelo;GUIMARÃES;BRAGA
+Seixas;Com Exploração;Apeadeiro;Linha do Minho;Seixas;CAMINHA;VIANA DO CASTELO
+Vermoil;Com Exploração;Estação;Linha do Norte;Santiago e S. Simão de Litém e Albergaria dos Doze;POMBAL;LEIRIA
+Ruílhe;Com Exploração;Estação;Ramal de Braga;Ruilhe;BRAGA;BRAGA
+Mato Miranda;Com Exploração;Estação;Linha do Norte;Azinhaga;GOLEGÃ;SANTARÉM
+Tadim;Com Exploração;Estação;Ramal de Braga;Tadim;BRAGA;BRAGA
+Carvalhal da Portela;Com Exploração;Apeadeiro;Linha do Vouga;Valongo do Vouga;ÁGUEDA;AVEIRO
+Fontela;Com Exploração;Estação;Linha do Oeste;Vila Verde;FIGUEIRA DA FOZ;COIMBRA
+Ferradosa;Com Exploração;Apeadeiro;Linha do Douro;Vale de Figueira;SÃO JOÃO DA PESQUEIRA;VISEU
+Tojeirinha;Com Exploração;Apeadeiro;Linha da Beira Baixa;Vila Velha de Ródão;VILA VELHA DE RÓDÃO;CASTELO BRANCO
+Irivo;Com Exploração;Estação;Linha do Douro;Irivo;PENAFIEL;PORTO
+Martingança;Com Exploração;Estação;Linha do Oeste;Pataias e Martingança;ALCOBAÇA;LEIRIA
+Coimbra;Com Exploração;Estação;Ramal da Lousã;Sé Nova, Santa Cruz, Almedina e São Bartolomeu;COIMBRA;COIMBRA
+São Romão - A;Com Exploração;Apeadeiro;Linha do Minho;Coronado (São Romão e São Mamede);TROFA;PORTO
+Pedra Furada;Com Exploração;Apeadeiro;Linha do Oeste;Almargem do Bispo, Pêro Pinheiro e Montelavar;SINTRA;LISBOA
+Gata;Com Exploração;Apeadeiro;Linha da Beira Alta;Casal de Cinza;GUARDA;GUARDA
+Curvaceiras;Com Exploração;Apeadeiro;Ramal de Tomar;Madalena e Beselga;TOMAR;SANTARÉM
+Rede;Com Exploração;Estação;Linha do Douro;Vila Marim;MESÃO FRIO;VILA REAL
+Madalena;Com Exploração;Apeadeiro;Linha do Norte;Madalena;VILA NOVA DE GAIA;PORTO
+Cortegaça;Com Exploração;Apeadeiro;Linha do Norte;Cortegaça;OVAR;AVEIRO
+Pala;Com Exploração;Apeadeiro;Linha do Douro;Ancede e Ribadouro;BAIÃO;PORTO
+Gondarém;Com Exploração;Apeadeiro;Linha do Minho;Gondarém;VILA NOVA DE CERVEIRA;VIANA DO CASTELO
+Santa Iria;Com Exploração;Apeadeiro;Linha do Norte;Santa Iria de Azoia, São João da Talha e Bobadela;LOURES;LISBOA
+Torres Vedras;Com Exploração;Estação;Linha do Oeste;Santa Maria, São Pedro e Matacães;TORRES VEDRAS;LISBOA
+Caldas de Moledo;Com Exploração;Apeadeiro;Linha do Douro;Fontelas;PESO DA RÉGUA;VILA REAL
+Mealhada;Com Exploração;Apeadeiro;Linha do Norte;Mealhada, Ventosa do Bairro e Antes;MEALHADA;AVEIRO
+Travanca-Macinhata;Com Exploração;Apeadeiro;Linha do Vouga;Pinheiro da Bemposta, Travanca e Palmaz;OLIVEIRA DE AZEMÉIS;AVEIRO
+Pombal Resguardo;Com Exploração;Estação;Linha do Norte;Pombal;POMBAL;LEIRIA
+Soure;Com Exploração;Estação;Linha do Norte;Soure;SOURE;COIMBRA
+Belmonte-Manteigas;Com Exploração;Estação;Linha da Beira Baixa;Belmonte e Colmeal da Torre;BELMONTE;CASTELO BRANCO
+Oliveirinha Cabanas;Com Exploração;Estação;Linha da Beira Alta;Oliveira do Conde;CARREGAL DO SAL;VISEU
+Bagaúste;Com Exploração;Apeadeiro;Linha do Douro;Poiares e Canelas;PESO DA RÉGUA;VILA REAL
+Tramagal;Com Exploração;Estação;Linha da Beira Baixa;Tramagal;ABRANTES;SANTARÉM
+Fanhais;Com Exploração;Apeadeiro;Linha do Oeste;Nazaré;NAZARÉ;LEIRIA
+Vila da Feira;Com Exploração;Estação;Linha do Vouga;Santa Maria da Feira, Travanca, Sanfins e Espargo;SANTA MARIA DA FEIRA;AVEIRO
+Bencanta;Com Exploração;Apeadeiro;Linha do Norte;São Martinho do Bispo e Ribeira de Frades;COIMBRA;COIMBRA
+Paramos ;Com Exploração;Apeadeiro;Linha do Norte;Paramos;ESPINHO;AVEIRO
+Carregal do Sal;Com Exploração;Estação;Linha da Beira Alta;Carregal do Sal;CARREGAL DO SAL;VISEU
+Senhora das Dores;Com Exploração;Estação;Linha do Minho;Bougado (São Martinho e Santiago);TROFA;PORTO
+Águas Santas;Com Exploração;Apeadeiro;Linha do Minho;Águas Santas;MAIA;PORTO
+São Gemil;Com Exploração;Estação;Linha de Leixões;Águas Santas;MAIA;PORTO
+Monte Redondo;Com Exploração;Apeadeiro;Linha do Oeste;Monte Redondo e Carreira;LEIRIA;LEIRIA
+Barroselas;Com Exploração;Estação;Linha do Minho;Barroselas e Carvoeiro;VIANA DO CASTELO;VIANA DO CASTELO
+Belver;Com Exploração;Estação;Linha da Beira Baixa;Belver;GAVIÃO;PORTALEGRE
+Faria;Com Exploração;Apeadeiro;Linha do Vouga;Vila de Cucujães;OLIVEIRA DE AZEMÉIS;AVEIRO
+Escapães;Com Exploração;Apeadeiro;Linha do Vouga;Escapães;SANTA MARIA DA FEIRA;AVEIRO
+Aguim;Com Exploração;Apeadeiro;Linha do Norte;Tamengos, Aguim e Óis do Bairro;ANADIA;AVEIRO
+Mosteirô;Com Exploração;Estação;Linha do Douro;Ancede e Ribadouro;BAIÃO;PORTO
+Lardosa;Com Exploração;Estação;Linha da Beira Baixa;Lardosa;CASTELO BRANCO;CASTELO BRANCO
+Paúl;Com Exploração;Apeadeiro;Linha do Oeste;Roliça;BOMBARRAL;LEIRIA
+Dois Portos;Com Exploração;Estação;Linha do Oeste;Dois Portos e Runa;TORRES VEDRAS;LISBOA
+Recarei - Sobreira;Com Exploração;Estação;Linha do Douro;Sobreira;PAREDES;PORTO
+Adémia;Com Exploração;Apeadeiro;Linha do Norte;Trouxemil e Torre de Vilela;COIMBRA;COIMBRA
+Caniços;Com Exploração;Estação;Linha de Guimarães;Bairro;VILA NOVA DE FAMALICÃO;BRAGA
+Donas;Com Exploração;Apeadeiro;Linha da Beira Baixa;Fundão, Valverde, Donas, A. Joanes, A. Nova do Cabo;FUNDÃO;CASTELO BRANCO
+Lapa do Lobo;Com Exploração;Apeadeiro;Linha da Beira Alta;Lapa do Lobo;NELAS;VISEU
+Ameal;Com Exploração;Apeadeiro;Linha do Norte;Taveiro, Ameal e Arzila;COIMBRA;COIMBRA
+Régua;Com Exploração;Estação;Linha do Douro;Peso da Régua e Godim;PESO DA RÉGUA;VILA REAL
+Valadares;Com Exploração;Apeadeiro;Linha do Norte;Gulpilhares e Valadares;VILA NOVA DE GAIA;PORTO
+Barracão-Sabugal;Com Exploração;Apeadeiro;Linha da Beira Baixa;Panoias de Cima;GUARDA;GUARDA
+Valado;Com Exploração;Estação;Linha do Oeste;Valado dos Frades;NAZARÉ;LEIRIA
+Soito;Com Exploração;Apeadeiro;Linha da Beira Alta;Espinho;MORTÁGUA;VISEU
+Pinhão;Com Exploração;Estação;Linha do Douro;Pinhão;ALIJÓ;VILA REAL
+Campo-Serra;Com Exploração;Apeadeiro;Linha do Oeste;Tornada e Salir do Porto;CALDAS DA RAINHA;LEIRIA
+Pampilhosa;Com Exploração;Estação;Linha do Norte;Pampilhosa;MEALHADA;AVEIRO
+Évora;Com Exploração;Estação;Linha de Évora;Malagueira e Horta das Figueiras;ÉVORA;ÉVORA
+Bombarral;Com Exploração;Estação;Linha do Oeste;Bombarral e Vale Covo;BOMBARRAL;LEIRIA
+Arentim;Com Exploração;Estação;Ramal de Braga;Arentim e Cunha;BRAGA;BRAGA
+Parada;Com Exploração;Apeadeiro;Linha do Douro;Parada de Todeia;PAREDES;PORTO
+Luz;Com Exploração;Apeadeiro;Linha do Algarve;Luz de Tavira e Santo Estêvão;TAVIRA;FARO
+Penteado;Com Exploração;Apeadeiro;Linha do Alentejo;Moita;MOITA;SETÚBAL
+Portela de Sintra;Com Exploração;Apeadeiro;Linha de Sintra;S. Maria, S. Miguel, S. Martinho e S. Pedro de Penaferrim;SINTRA;LISBOA
+Lavradio;Com Exploração;Estação;Linha do Alentejo;Barreiro e Lavradio;BARREIRO;SETÚBAL
+Porto de Sines;Com Exploração;Estação;Linha de Sines;Sines;SINES;SETÚBAL
+Feliteira;Com Exploração;Apeadeiro;Linha do Oeste;Dois Portos e Runa;TORRES VEDRAS;LISBOA
+Guimarães;Com Exploração;Estação;Linha de Guimarães;Urgezes;GUIMARÃES;BRAGA
+Lapa;Com Exploração;Apeadeiro;Linha do Vouga;São Paio de Oleiros;SANTA MARIA DA FEIRA;AVEIRO
+Oiã ;Com Exploração;Estação;Linha do Norte;Oiã;OLIVEIRA DO BAIRRO;AVEIRO
+Suzão;Com Exploração;Apeadeiro;Linha do Douro;Valongo;VALONGO;PORTO
+Virtudes;Com Exploração;Apeadeiro;Linha do Norte;Aveiras de Baixo;AZAMBUJA;LISBOA
+Nespereira;Com Exploração;Apeadeiro;Linha de Guimarães;Nespereira;GUIMARÃES;BRAGA
+Algoz;Com Exploração;Apeadeiro;Linha do Algarve;Algoz e Tunes;SILVES;FARO
+Areia - Darque;Com Exploração;Apeadeiro;Linha do Minho;Darque;VIANA DO CASTELO;VIANA DO CASTELO
+Lordelo;Com Exploração;Estação;Linha de Guimarães;Lordelo;GUIMARÃES;BRAGA
+Albergaria-a-Nova;Com Exploração;Apeadeiro;Linha do Vouga;Branca;ALBERGARIA-A-VELHA;AVEIRO
+Tortosendo;Com Exploração;Estação;Linha da Beira Baixa;Tortosendo;COVILHÃ;CASTELO BRANCO
+Casais;Com Exploração;Apeadeiro;Linha do Norte;São Martinho do Bispo e Ribeira de Frades;COIMBRA;COIMBRA
+Cela;Com Exploração;Apeadeiro;Linha do Oeste;Cela;ALCOBAÇA;LEIRIA
+Ródão;Com Exploração;Estação;Linha da Beira Baixa;Vila Velha de Ródão;VILA VELHA DE RÓDÃO;CASTELO BRANCO
+Carriço;Com Exploração;Apeadeiro;Linha do Oeste;Carriço;POMBAL;LEIRIA
+Espadanal da Azambuja;Com Exploração;Apeadeiro;Linha do Norte;Vila Nova da Rainha;AZAMBUJA;LISBOA
+Couto de Cambeses;Com Exploração;Apeadeiro;Ramal de Braga;Cambeses;BARCELOS;BRAGA
+Parede;Com Exploração;Apeadeiro;Linha de Cascais;Carcavelos e Parede;CASCAIS;LISBOA
+Vesúvio;Com Exploração;Apeadeiro;Linha do Douro;Numão;VILA NOVA DE FOZ CÔA;GUARDA
+Fundão;Com Exploração;Estação;Linha da Beira Baixa;Fundão, Valverde, Donas, A. Joanes, A. Nova do Cabo;FUNDÃO;CASTELO BRANCO
+São Martinho do Porto;Com Exploração;Estação;Linha do Oeste;São Martinho do Porto;ALCOBAÇA;LEIRIA
+Quinta do Valongo - Vacariça;Com Exploração;Apeadeiro;Linha da Beira Alta;Vacariça;MEALHADA;AVEIRO
+Oleiros;Com Exploração;Apeadeiro;Linha do Douro;Guilhufe e Urrô;PENAFIEL;PORTO
+Alhandra;Com Exploração;Estação;Linha do Norte;Alhandra, São João dos Montes e Calhandriz;VILA FRANCA DE XIRA;LISBOA
+Areosa;Com Exploração;Apeadeiro;Linha do Minho;Areosa;VIANA DO CASTELO;VIANA DO CASTELO
+Vale de Figueira;Com Exploração;Estação;Linha do Norte;São Vicente do Paul e Vale de Figueira;SANTARÉM;SANTARÉM
+Juncal;Com Exploração;Estação;Linha do Douro;Paredes de Viadores e Manhuncelos;MARCO DE CANAVESES;PORTO
+São Martinho do Campo;Com Exploração;Apeadeiro;Linha do Douro;Campo e Sobrado;VALONGO;PORTO
+Paialvo;Com Exploração;Apeadeiro;Linha do Norte;Madalena e Beselga;TOMAR;SANTARÉM
+Vilela - Fornos ;Com Exploração;Apeadeiro;Linha do Norte;Trouxemil e Torre de Vilela;COIMBRA;COIMBRA
+Leandro;Com Exploração;Estação;Linha do Minho;São Pedro Fins;MAIA;PORTO
+Vila Nova da Cerveira;Com Exploração;Estação;Linha do Minho;Vila Nova de Cerveira e Lovelhe;VILA NOVA DE CERVEIRA;VIANA DO CASTELO
+Vargelas;Com Exploração;Estação;Linha do Douro;Vale de Figueira;SÃO JOÃO DA PESQUEIRA;VISEU
+Noémi;Com Exploração;Estação;Linha da Beira Alta;Miuzela e Porto de Ovelha;ALMEIDA;GUARDA
+Alcaide;Com Exploração;Apeadeiro;Linha da Beira Baixa;Alcaide;FUNDÃO;CASTELO BRANCO
+Pinhel;Com Exploração;Estação;Linha da Beira Alta;Alverca da Beira/Bouça Cova;PINHEL;GUARDA
+Soalheira;Com Exploração;Apeadeiro;Linha da Beira Baixa;Castelo Novo;FUNDÃO;CASTELO BRANCO
+Regueira de Pontes;Com Exploração;Apeadeiro;Linha do Oeste;Regueira de Pontes;LEIRIA;LEIRIA
+Mouriscas-A;Com Exploração;Estação;Linha da Beira Baixa;Mouriscas;ABRANTES;SANTARÉM
+Carcavelos;Com Exploração;Estação;Linha de Cascais;Carcavelos e Parede;CASCAIS;LISBOA
+Oeiras;Com Exploração;Estação;Linha de Cascais;Oeiras e S. Julião da Barra, Paço de Arcos e Caxias;OEIRAS;LISBOA
+Leça do Balio;Com Exploração;Estação;Linha de Leixões;Custóias, Leça do Balio e Guifões;MATOSINHOS;PORTO
+Barrimau;Com Exploração;Apeadeiro;Linha do Minho;Vila Nova de Famalicão e Calendário;VILA NOVA DE FAMALICÃO;BRAGA
+Portalegre;Com Exploração;Estação;Linha do Leste;Urra;PORTALEGRE;PORTALEGRE
+São Mamede;Com Exploração;Apeadeiro;Linha do Oeste;Roliça;BOMBARRAL;LEIRIA
+Telhada;Com Exploração;Apeadeiro;Linha do Oeste;Paião;FIGUEIRA DA FOZ;COIMBRA
+São Mamede do Tua;Com Exploração;Apeadeiro;Linha do Douro;Castedo e Cotas;ALIJÓ;VILA REAL
+Mouriscas;Com Exploração;Estação;Linha da Beira Baixa;Mouriscas;ABRANTES;SANTARÉM
+Ermesinde - A;Com Exploração;Estação;Linha do Douro;Ermesinde;VALONGO;PORTO
+Bicanho;Com Exploração;Apeadeiro;Linha do Oeste;Samuel;SOURE;COIMBRA
+Caldas da Rainha;Com Exploração;Estação;Linha do Oeste;Nossa Senhora do Pópulo, Coto e São Gregório;CALDAS DA RAINHA;LEIRIA
+Luso Buçaco;Com Exploração;Apeadeiro;Linha da Beira Alta;Luso;MEALHADA;AVEIRO
+Barquinha;Com Exploração;Estação;Linha da Beira Baixa;Vila Nova da Barquinha;VILA NOVA DA BARQUINHA;SANTARÉM
+Lares;Com Exploração;Apeadeiro;Linha do Oeste;Vila Verde;FIGUEIRA DA FOZ;COIMBRA
+Ramalhal;Com Exploração;Estação;Linha do Oeste;Ramalhal;TORRES VEDRAS;LISBOA
+Carrascal-Delongo;Com Exploração;Apeadeiro;Ramal de Tomar;Paialvo;TOMAR;SANTARÉM
+Gouveia;Com Exploração;Estação;Linha da Beira Alta;Abrunhosa-a-Velha;MANGUALDE;VISEU
+Zibreira;Com Exploração;Apeadeiro;Linha do Oeste;Sobral de Monte Agraço;SOBRAL DE MONTE AGRAÇO;LISBOA
+Santo Amaro;Com Exploração;Apeadeiro;Linha de Cascais;Oeiras e S. Julião da Barra, Paço de Arcos e Caxias;OEIRAS;LISBOA
+Barqueiros;Com Exploração;Apeadeiro;Linha do Douro;Barqueiros;MESÃO FRIO;VILA REAL
+Cabêda;Com Exploração;Apeadeiro;Linha do Douro;Alfena;VALONGO;PORTO
+Fratel;Com Exploração;Estação;Linha da Beira Baixa;Fratel;VILA VELHA DE RÓDÃO;CASTELO BRANCO
+Assumar;Com Exploração;Apeadeiro;Linha do Leste;Assumar;MONFORTE;PORTALEGRE
+Marvila;Com Exploração;Apeadeiro;Linha de Cintura;Marvila;LISBOA;LISBOA
+Sabugo;Com Exploração;Estação;Linha do Oeste;Almargem do Bispo, Pêro Pinheiro e Montelavar;SINTRA;LISBOA
+Aldeia;Com Exploração;Apeadeiro;Linha da Beira Alta;Castelo Bom;ALMEIDA;GUARDA
+Alcaria;Com Exploração;Apeadeiro;Linha da Beira Baixa;Alcaria;FUNDÃO;CASTELO BRANCO
+Bouro;Com Exploração;Apeadeiro;Linha do Oeste;Tornada e Salir do Porto;CALDAS DA RAINHA;LEIRIA
+Cerdeira;Com Exploração;Estação;Linha da Beira Alta;Cerdeira;SABUGAL;GUARDA
+Alpedrinha;Com Exploração;Apeadeiro;Linha da Beira Baixa;Alpedrinha;FUNDÃO;CASTELO BRANCO
+Dagorda - Peniche;Com Exploração;Apeadeiro;Linha do Oeste;Santa Maria, São Pedro e Sobral da Lagoa;ÓBIDOS;LEIRIA
+Bifurcação do Luso;Com Exploração;Estação;Linha da Beira Alta;Luso;MEALHADA;AVEIRO
+Cais do Sodré;Com Exploração;Estação;Linha de Cascais;Misericórdia;LISBOA;LISBOA
+Bemposta;Com Exploração;Apeadeiro;Linha do Leste;São Facundo e Vale de Mós;ABRANTES;SANTARÉM
+Monte Estoril;Com Exploração;Apeadeiro;Linha de Cascais;Cascais e Estoril;CASCAIS;LISBOA
+Fontela-A;Com Exploração;Apeadeiro;Linha do Oeste;Vila Verde;FIGUEIRA DA FOZ;COIMBRA
+Retaxo;Com Exploração;Apeadeiro;Linha da Beira Baixa;Cebolais de Cima e Retaxo;CASTELO BRANCO;CASTELO BRANCO
+Outeiro;Com Exploração;Estação;Linha do Oeste;Campelos e Outeiro da Cabeça;TORRES VEDRAS;LISBOA
+Torre das Vargens;Com Exploração;Estação;Linha do Leste;Ponte de Sor, Tramaga e Vale de Açor;PONTE DE SOR;PORTALEGRE
+Fazenda;Com Exploração;Apeadeiro;Linha do Leste;Ponte de Sor, Tramaga e Vale de Açor;PONTE DE SOR;PORTALEGRE
+Carvalhos de Figueiredo;Com Exploração;Apeadeiro;Ramal de Tomar;Madalena e Beselga;TOMAR;SANTARÉM
+Guia;Com Exploração;Apeadeiro;Linha do Oeste;Guia, Ilha e Mata Mourisca;POMBAL;LEIRIA
+Contenças;Com Exploração;Estação;Linha da Beira Alta;Santiago de Cassurrães e Póvoa de Cervães;MANGUALDE;VISEU
+Jerumelo;Com Exploração;Apeadeiro;Linha do Oeste;Sapataria;SOBRAL DE MONTE AGRAÇO;LISBOA
+Torre da Gadanha;Com Exploração;Estação;Linha do Alentejo;São Cristóvão;MONTEMOR-O-NOVO;ÉVORA
+Bombel;Com Exploração;Estação;Linha do Alentejo;Vendas Novas;VENDAS NOVAS;ÉVORA
+Rio Meão;Com Exploração;Apeadeiro;Linha do Vouga;Rio Meão;SANTA MARIA DA FEIRA;AVEIRO
+Roma - Areeiro;Com Exploração;Estação;Linha de Cintura;Alvalade;LISBOA;LISBOA
+Entrecampos - Poente;Com Exploração;Estação;Linha de Cintura;Avenidas Novas;LISBOA;LISBOA
+Sete Rios;Com Exploração;Estação;Linha de Cintura;São Domingos de Benfica;LISBOA;LISBOA
+Boliqueime;Com Exploração;Estação;Linha do Algarve;Boliqueime;LOULÉ;FARO
+Santo Tirso;Com Exploração;Estação;Linha de Guimarães;St. Tirso, Couto (S. Cristina e S. Miguel) e Burgães;SANTO TIRSO;PORTO
+Urgueiras;Com Exploração;Apeadeiro;Linha do Vouga;Albergaria-a-Velha e Valmaior;ALBERGARIA-A-VELHA;AVEIRO
+Chelas;Com Exploração;Apeadeiro;Linha de Cintura;Beato;LISBOA;LISBOA
+Alcântara-Mar;Com Exploração;Estação;Linha de Cascais;Estrela;LISBOA;LISBOA
+Penalva;Com Exploração;Estação;Linha do Sul;Quinta do Anjo;PALMELA;SETÚBAL
+Alcântara-Terra;Com Exploração;Estação;Linha de Cintura;Estrela;LISBOA;LISBOA
+Ferragudo;Com Exploração;Apeadeiro;Linha do Algarve;Estômbar e Parchal;LAGOA;FARO
+Cuba;Com Exploração;Estação;Linha do Alentejo;Cuba;CUBA;BEJA
+Mata;Com Exploração;Apeadeiro;Linha do Leste;Chancelaria;ALTER DO CHÃO;PORTALEGRE
+Alvito;Com Exploração;Apeadeiro;Linha do Alentejo;Alvito;ALVITO;BEJA
+Vila Nova da Baronia;Com Exploração;Estação;Linha do Alentejo;Vila Nova da Baronia;ALVITO;BEJA
+São João das Craveiras;Com Exploração;Apeadeiro;Linha do Alentejo;Pegões;MONTIJO;SETÚBAL
+Moita;Com Exploração;Estação;Linha do Alentejo;Moita;MOITA;SETÚBAL
+Agualva-Cacém;Com Exploração;Estação;Linha de Sintra;Agualva e Mira-Sintra;SINTRA;LISBOA
+Beja;Com Exploração;Estação;Linha do Alentejo;Beja (Salvador e Santa Maria da Feira);BEJA;BEJA
+Panóias;Com Exploração;Apeadeiro;Linha do Alentejo;Panoias e Conceição;OURIQUE;BEJA
+Sintra;Com Exploração;Estação;Linha de Sintra;S. Maria, S. Miguel, S. Martinho e S. Pedro de Penaferrim;SINTRA;LISBOA
+Alcáçovas;Com Exploração;Apeadeiro;Linha do Alentejo;N. S. da Tourega e N. S. de Guadalupe;ÉVORA;ÉVORA
+Coimbrões;Com Exploração;Apeadeiro;Linha do Norte;Canidelo;VILA NOVA DE GAIA;PORTO
+Pataias;Com Exploração;Estação;Linha do Oeste;Pataias e Martingança;ALCOBAÇA;LEIRIA
+Muxagata;Com Exploração;Estação;Linha da Beira Alta;Figueiró da Granja;FORNOS DE ALGODRES;GUARDA
+Almourol;Com Exploração;Estação;Linha da Beira Baixa;Praia do Ribatejo;VILA NOVA DA BARQUINHA;SANTARÉM
+Verride;Com Exploração;Estação;Ramal de Alfarelos;Abrunheira, Verride e Vila Nova da Barca;MONTEMOR-O-VELHO;COIMBRA
+Alhos Vedros;Com Exploração;Apeadeiro;Linha do Alentejo;Alhos Vedros;MOITA;SETÚBAL
+Baixa da Banheira;Com Exploração;Apeadeiro;Linha do Alentejo;Baixa da Banheira e Vale da Amoreira;MOITA;SETÚBAL
+Sernada do Vouga;Com Exploração;Estação;Linha do Vouga;Macinhata do Vouga;ÁGUEDA;AVEIRO
+Oliveira do Bairro ;Com Exploração;Estação;Linha do Norte;Oliveira do Bairro;OLIVEIRA DO BAIRRO;AVEIRO
+Rio de Mouro;Com Exploração;Apeadeiro;Linha de Sintra;Rio de Mouro;SINTRA;LISBOA
+Barreiro-A;Com Exploração;Apeadeiro;Linha do Alentejo;Barreiro e Lavradio;BARREIRO;SETÚBAL
+Barreiro;Com Exploração;Estação;Linha do Alentejo;Barreiro e Lavradio;BARREIRO;SETÚBAL
+Massamá-Barcarena;Com Exploração;Apeadeiro;Linha de Sintra;Barcarena;OEIRAS;LISBOA
+Monte Abraão;Com Exploração;Estação;Linha de Sintra;Queluz e Belas;SINTRA;LISBOA
+Lavre;Com Exploração;Estação;Linha de Vendas Novas;Santana do Mato;CORUCHE;SANTARÉM
+São Torcato;Com Exploração;Estação;Linha de Vendas Novas;Coruche, Fajarda e Erra;CORUCHE;SANTARÉM
+Salgueirinha;Com Exploração;Estação;Linha de Vendas Novas;Coruche, Fajarda e Erra;CORUCHE;SANTARÉM
+Quintans;Com Exploração;Apeadeiro;Linha do Norte;Oliveirinha;AVEIRO;AVEIRO
+Lousal;Com Exploração;Estação;Linha do Sul;Azinheira dos Barros e São Mamede do Sádão;GRÂNDOLA;SETÚBAL
+Porto São Bento;Com Exploração;Estação;Linha do Minho;Cedofeita, Ildefonso, Sé, Miragaia, Nicolau, Vitória;PORTO;PORTO
+Algueirão-Mem Martins;Com Exploração;Apeadeiro;Linha de Sintra;Algueirão-Mem Martins;SINTRA;LISBOA
+Lisboa Santa Apolónia;Com Exploração;Estação;Linha do Norte;São Vicente;LISBOA;LISBOA
+Morgado;Com Exploração;Apeadeiro;Linha de Vendas Novas;Valada;CARTAXO;SANTARÉM
+Chança;Com Exploração;Apeadeiro;Linha do Leste;Chancelaria;ALTER DO CHÃO;PORTALEGRE
+Bifurcação de Lares;Com Exploração;Estação;Linha do Oeste;Abrunheira, Verride e Vila Nova da Barca;MONTEMOR-O-VELHO;COIMBRA
+Montemor;Com Exploração;Apeadeiro;Ramal de Alfarelos;Alfarelos;SOURE;COIMBRA
+Cruz Quebrada;Com Exploração;Apeadeiro;Linha de Cascais;Algés, Linda-a-Velha e Cruz Quebrada-Dafundo;OEIRAS;LISBOA
+Santa Eulália-A;Com Exploração;Apeadeiro;Linha do Leste;Santa Eulália;ELVAS;PORTALEGRE
+Belém;Com Exploração;Apeadeiro;Linha de Cascais;Belém;LISBOA;LISBOA
+Ponte de Sôr;Com Exploração;Estação;Linha do Leste;Ponte de Sor, Tramaga e Vale de Açor;PONTE DE SOR;PORTALEGRE
+Coina;Com Exploração;Estação;Linha do Sul;Seixal, Arrentela e Aldeia de Paio Pires;SEIXAL;SETÚBAL
+Arrifana;Com Exploração;Apeadeiro;Linha do Vouga;Arrifana;SANTA MARIA DA FEIRA;AVEIRO
+Pocinho;Com Exploração;Estação;Linha do Douro;Vila Nova de Foz Côa;VILA NOVA DE FOZ CÔA;GUARDA
+Fuseta;Com Exploração;Estação;Linha do Algarve;Moncarapacho e Fuseta;OLHÃO;FARO
+Ourique;Com Exploração;Estação;Linha do Alentejo;Castro Verde e Casével;CASTRO VERDE;BEJA
+Monte das Flores;Com Exploração;Estação;Linha de Évora;Malagueira e Horta das Figueiras;ÉVORA;ÉVORA
+Alcantarilha;Com Exploração;Estação;Linha do Algarve;Alcantarilha e Pêra;SILVES;FARO
+Poço Barreto;Com Exploração;Apeadeiro;Linha do Algarve;Silves;SILVES;FARO
+Paredes;Com Exploração;Apeadeiro;Linha do Douro;Paredes;PAREDES;PORTO
+Benfica;Com Exploração;Estação;Linha de Sintra;Benfica;LISBOA;LISBOA
+São Bartolomeu da Serra;Com Exploração;Estação;Linha de Sines;Santiago do Cacém, S. Cruz e S. Bartolomeu da Serra;SANTIAGO DO CACÉM;SETÚBAL
+Riachos - Torres Novas - Golegã;Com Exploração;Estação;Linha do Norte;Riachos;TORRES NOVAS;SANTARÉM
+Somincor;Com Exploração;Mercadorias;Linha do Sul;Santa Maria do Castelo e Santiago e Santa Susana;ALCÁCER DO SAL;SETÚBAL
+Silves;Com Exploração;Estação;Linha do Algarve;Silves;SILVES;FARO
+Bom João;Com Exploração;Apeadeiro;Linha do Algarve;Faro (Sé e São Pedro);FARO;FARO
+Santana Cartaxo;Com Exploração;Apeadeiro;Linha do Norte;Vila Chã de Ourique;CARTAXO;SANTARÉM
+Pereiras;Com Exploração;Apeadeiro;Linha do Sul;Santa Clara-a-Velha;ODEMIRA;BEJA
+Monte Novo-Palma;Com Exploração;Estação;Linha do Sul;Santa Maria do Castelo e Santiago e Santa Susana;ALCÁCER DO SAL;SETÚBAL
+Aguda;Com Exploração;Apeadeiro;Linha do Norte;Arcozelo;VILA NOVA DE GAIA;PORTO
+Azinheira dos Barros – A;Com Exploração;Apeadeiro;Linha do Sul;Azinheira dos Barros e São Mamede do Sádão;GRÂNDOLA;SETÚBAL
+Formoselha / Santo Varão;Com Exploração;Apeadeiro;Linha do Norte;Santo Varão;MONTEMOR-O-VELHO;COIMBRA
+Almancil;Com Exploração;Apeadeiro;Linha do Algarve;Almancil;LOULÉ;FARO
+Agolada;Com Exploração;Estação;Linha de Vendas Novas;Coruche, Fajarda e Erra;CORUCHE;SANTARÉM
+Fatela-Penamacor;Com Exploração;Apeadeiro;Linha da Beira Baixa;Enxames;FUNDÃO;CASTELO BRANCO
+Alcains;Com Exploração;Estação;Linha da Beira Baixa;Alcains;CASTELO BRANCO;CASTELO BRANCO
+Silvalde;Com Exploração;Apeadeiro;Linha do Norte;Silvalde;ESPINHO;AVEIRO
+Salir do Porto;Com Exploração;Apeadeiro;Linha do Oeste;Tornada e Salir do Porto;CALDAS DA RAINHA;LEIRIA
+Parque das Cidades;Com Exploração;Estação;Linha do Algarve;Almancil;LOULÉ;FARO
+Pero Negro;Com Exploração;Estação;Linha do Oeste;Sapataria;SOBRAL DE MONTE AGRAÇO;LISBOA
+Castelejo;Com Exploração;Apeadeiro;Linha da Beira Alta;São João de Areias;SANTA COMBA DÃO;VISEU
+Águeda;Com Exploração;Estação;Linha do Vouga;Águeda e Borralha;ÁGUEDA;AVEIRO
+Mortágua;Com Exploração;Estação;Linha da Beira Alta;Mortágua, Vale de Remígio, Cortegaça e Almaça;MORTÁGUA;VISEU
+Figueira da Foz;Com Exploração;Estação;Linha do Oeste;Buarcos e São Julião;FIGUEIRA DA FOZ;COIMBRA
+Barcelos;Com Exploração;Estação;Linha do Minho;Arcozelo;BARCELOS;BRAGA
+Monte dos Lobos;Com Exploração;Apeadeiro;Linha da Beira Alta;Mortágua, Vale de Remígio, Cortegaça e Almaça;MORTÁGUA;VISEU
+Estômbar-Lagoa;Com Exploração;Estação;Linha do Algarve;Estômbar e Parchal;LAGOA;FARO
+Trofa ;Com Exploração;Apeadeiro;Linha do Minho;Bougado (São Martinho e Santiago);TROFA;PORTO
+Desvio de Picotas;Com Exploração;Estação;Ramal Neves Corvo;Castro Verde e Casével;CASTRO VERDE;BEJA
+Minas de Neves Corvo;Com Exploração;Estação;Ramal Neves Corvo;Santa Bárbara de Padrões;CASTRO VERDE;BEJA
+Palmilheira;Com Exploração;Apeadeiro;Linha do Minho;Águas Santas;MAIA;PORTO
+Cavaco;Com Exploração;Apeadeiro;Linha do Vouga;Santa Maria da Feira, Travanca, Sanfins e Espargo;SANTA MARIA DA FEIRA;AVEIRO
+Famalicão da Nazaré;Com Exploração;Apeadeiro;Linha do Oeste;Famalicão;NAZARÉ;LEIRIA
+Aguieira;Com Exploração;Apeadeiro;Linha do Vouga;Valongo do Vouga;ÁGUEDA;AVEIRO
+Valongo;Com Exploração;Estação;Linha do Douro;Valongo;VALONGO;PORTO
+Carvalha;Com Exploração;Apeadeiro;Linha do Minho;Campos e Vila Meã;VILA NOVA DE CERVEIRA;VIANA DO CASTELO
+Pego;Com Exploração;Apeadeiro;Linha da Beira Alta;Vacariça;MEALHADA;AVEIRO
+Praia do Ribatejo;Com Exploração;Estação;Linha da Beira Baixa;Praia do Ribatejo;VILA NOVA DA BARQUINHA;SANTARÉM
+Marujal;Com Exploração;Apeadeiro;Ramal de Alfarelos;Abrunheira, Verride e Vila Nova da Barca;MONTEMOR-O-VELHO;COIMBRA
+Entrecampos;Com Exploração;Estação;Linha de Cintura;Alvalade;LISBOA;LISBOA
+Viana;Com Exploração;Apeadeiro;Linha do Alentejo;Viana do Alentejo;VIANA DO ALENTEJO;ÉVORA
+Pegões;Com Exploração;Estação;Linha do Alentejo;Pegões;MONTIJO;SETÚBAL
+Mercês;Com Exploração;Estação;Linha de Sintra;Algueirão-Mem Martins;SINTRA;LISBOA
+Garvão ;Com Exploração;Apeadeiro;Linha do Sul;Garvão e Santa Luzia;OURIQUE;BEJA
+Reboleira;Com Exploração;Apeadeiro;Linha de Sintra;Águas Livres;AMADORA;LISBOA
+Marinhais;Com Exploração;Estação;Linha de Vendas Novas;Marinhais;SALVATERRA DE MAGOS;SANTARÉM
+Muge;Com Exploração;Estação;Linha de Vendas Novas;Muge;SALVATERRA DE MAGOS;SANTARÉM
+Canal-Caveira;Com Exploração;Estação;Linha do Sul;Grândola e Santa Margarida da Serra;GRÂNDOLA;SETÚBAL
+Vendas Novas;Com Exploração;Estação;Linha do Alentejo;Vendas Novas;VENDAS NOVAS;ÉVORA
+São Pedro do Estoril;Com Exploração;Estação;Linha de Cascais;Cascais e Estoril;CASCAIS;LISBOA
+Cascais;Com Exploração;Estação;Linha de Cascais;Cascais e Estoril;CASCAIS;LISBOA
+Estoril;Com Exploração;Estação;Linha de Cascais;Cascais e Estoril;CASCAIS;LISBOA
+São João do Estoril ;Com Exploração;Apeadeiro;Linha de Cascais;Cascais e Estoril;CASCAIS;LISBOA
+Paço de Arcos;Com Exploração;Apeadeiro;Linha de Cascais;Oeiras e S. Julião da Barra, Paço de Arcos e Caxias;OEIRAS;LISBOA
+Caxias;Com Exploração;Estação;Linha de Cascais;Oeiras e S. Julião da Barra, Paço de Arcos e Caxias;OEIRAS;LISBOA
+Crato;Com Exploração;Apeadeiro;Linha do Leste;Crato e Mártires, Flor da Rosa e Vale do Peso;CRATO;PORTALEGRE
+Fogueteiro;Com Exploração;Estação;Linha do Sul;Seixal, Arrentela e Aldeia de Paio Pires;SEIXAL;SETÚBAL
+Foros de Amora;Com Exploração;Apeadeiro;Linha do Sul;Amora;SEIXAL;SETÚBAL
+Pragal;Com Exploração;Estação;Linha do Sul;Almada, Cova da Piedade, Pragal e Cacilhas;ALMADA;SETÚBAL
+Alvito-A;Com Exploração;Estação;Linha do Sul;Alcântara;LISBOA;LISBOA
+Fuseta-A;Com Exploração;Apeadeiro;Linha do Algarve;Moncarapacho e Fuseta;OLHÃO;FARO
+Cacela;Com Exploração;Estação;Linha do Algarve;Vila Nova de Cacela;VILA REAL DE SANTO ANTÓNIO;FARO
+Durrães;Com Exploração;Apeadeiro;Linha do Minho;Durrães e Tregosa;BARCELOS;BRAGA
+Póvoa;Com Exploração;Apeadeiro;Linha do Norte;Póvoa de Santa Iria e Forte da Casa;VILA FRANCA DE XIRA;LISBOA
+Portimão;Com Exploração;Estação;Linha do Algarve;Portimão;PORTIMÃO;FARO
+Caíde;Com Exploração;Estação;Linha do Douro;Caíde de Rei;LOUSADA;PORTO
+Albergaria dos Doze;Com Exploração;Estação;Linha do Norte;Santiago e S. Simão de Litém e Albergaria dos Doze;POMBAL;LEIRIA
+Vizela;Com Exploração;Estação;Linha de Guimarães;Caldas de Vizela (São Miguel e São João);VIZELA;BRAGA
+Mexilhoeira Grande;Com Exploração;Estação;Linha do Algarve;Mexilhoeira Grande;PORTIMÃO;FARO
+Messines-Alte;Com Exploração;Estação;Linha do Sul;São Bartolomeu de Messines;SILVES;FARO
+São Marcos;Com Exploração;Estação;Linha do Sul;São Marcos da Serra;SILVES;FARO
+Santa Clara-Sabóia;Com Exploração;Estação;Linha do Sul;Santa Clara-a-Velha;ODEMIRA;BEJA
+Luzianes;Com Exploração;Estação;Linha do Sul;Luzianes-Gare;ODEMIRA;BEJA
+Lagos;Com Exploração;Estação;Linha do Algarve;São Gonçalo de Lagos;LAGOS;FARO
+Castro Marim;Com Exploração;Apeadeiro;Linha do Algarve;Castro Marim;CASTRO MARIM;FARO
+Alvarães;Com Exploração;Apeadeiro;Linha do Minho;Alvarães;VIANA DO CASTELO;VIANA DO CASTELO
+Grândola Norte;Com Exploração;Estação;Linha do Sul;Grândola e Santa Margarida da Serra;GRÂNDOLA;SETÚBAL
+Loulé;Com Exploração;Estação;Linha do Algarve;Loulé (São Sebastião);LOULÉ;FARO
+Conceição;Com Exploração;Apeadeiro;Linha do Algarve;Conceição e Cabanas de Tavira;TAVIRA;FARO
+Moledo do Minho;Com Exploração;Apeadeiro;Linha do Minho;Moledo e Cristelo;CAMINHA;VIANA DO CASTELO
+Válega;Com Exploração;Estação;Linha do Norte;Válega;OVAR;AVEIRO
+Bifurcação de Torre Vã;Com Exploração;Estação;Linha do Sul;Panoias e Conceição;OURIQUE;BEJA
+Alvalade;Com Exploração;Apeadeiro;Linha do Sul;Alvalade;SANTIAGO DO CACÉM;SETÚBAL
+Carregado;Com Exploração;Apeadeiro;Linha do Norte;Castanheira do Ribatejo e Cachoeiras;VILA FRANCA DE XIRA;LISBOA
+Figueiredo;Com Exploração;Apeadeiro;Linha do Vouga;Pinheiro da Bemposta, Travanca e Palmaz;OLIVEIRA DE AZEMÉIS;AVEIRO
+Vale de Guizo;Com Exploração;Estação;Linha do Sul;Santa Maria do Castelo e Santiago e Santa Susana;ALCÁCER DO SAL;SETÚBAL
+Ovar;Com Exploração;Estação;Linha do Norte;Ovar, S. João, Arada e S. Vicente de Pereira Jusã;OVAR;AVEIRO
+Miramar;Com Exploração;Apeadeiro;Linha do Norte;Arcozelo;VILA NOVA DE GAIA;PORTO
+Pinheiro;Com Exploração;Estação;Linha do Sul;Santa Maria do Castelo e Santiago e Santa Susana;ALCÁCER DO SAL;SETÚBAL
+Monte Gordo;Com Exploração;Apeadeiro;Linha do Algarve;Monte Gordo;VILA REAL DE SANTO ANTÓNIO;FARO
+Soudos - Vila Nova;Com Exploração;Apeadeiro;Ramal de Tomar;Paialvo;TOMAR;SANTARÉM
+Albufeira - Ferreiras;Com Exploração;Estação;Linha do Algarve;Ferreiras;ALBUFEIRA;FARO
+Vale da Rosa;Com Exploração;Estação;Linha do Sul;Sado;SETÚBAL;SETÚBAL
+Mourisca-Sado;Com Exploração;Apeadeiro;Linha do Sul;Gâmbia-Pontes-Alto da Guerra;SETÚBAL;SETÚBAL
+Eirol;Com Exploração;Estação;Linha do Vouga;Eixo e Eirol;AVEIRO;AVEIRO
+Cachofarra;Com Exploração;Apeadeiro;Linha do Sul;Setúbal (São Sebastião);SETÚBAL;SETÚBAL
+Praça do Quebedo;Com Exploração;Apeadeiro;Linha do Sul;S. Julião, N. S. da Anunciada e S. Maria da Graça;SETÚBAL;SETÚBAL
+Vila Real de Stº António;Com Exploração;Estação;Linha do Algarve;Vila Real de Santo António;VILA REAL DE SANTO ANTÓNIO;FARO
+Palmela - A;Com Exploração;Apeadeiro;Linha do Sul;Palmela;PALMELA;SETÚBAL
+Palmela;Com Exploração;Estação;Linha do Sul;Palmela;PALMELA;SETÚBAL
+Praias-Sado-A;Com Exploração;Apeadeiro;Linha do Sul;Setúbal (São Sebastião);SETÚBAL;SETÚBAL
+Porto Rei;Com Exploração;Apeadeiro;Linha do Douro;Barqueiros;MESÃO FRIO;VILA REAL
+Venda do Alcaide;Com Exploração;Apeadeiro;Linha do Sul;Palmela;PALMELA;SETÚBAL
+Braço de Prata;Com Exploração;Estação;Linha do Norte;Marvila;LISBOA;LISBOA
+Águas de Moura;Com Exploração;Estação;Linha do Sul;Gâmbia-Pontes-Alto da Guerra;SETÚBAL;SETÚBAL
+Corroios;Com Exploração;Estação;Linha do Sul;Corroios;SEIXAL;SETÚBAL
+Âncora Praia;Com Exploração;Apeadeiro;Linha do Minho;Vila Praia de Âncora;CAMINHA;VIANA DO CASTELO
+Santa Cruz/Damaia;Com Exploração;Apeadeiro;Linha de Sintra;Águas Livres;AMADORA;LISBOA
+Lisboa Rossio;Com Exploração;Estação;Linha de Sintra;Santa Maria Maior;LISBOA;LISBOA
+Santa Cita;Com Exploração;Estação;Ramal de Tomar;Madalena e Beselga;TOMAR;SANTARÉM
+Louriçal;Com Exploração;Estação;Linha do Oeste;Carriço;POMBAL;LEIRIA
+Ameal-Sul;Com Exploração;Estação;Linha do Norte;Pereira;MONTEMOR-O-VELHO;COIMBRA
+Freineda;Com Exploração;Apeadeiro;Linha da Beira Alta;Freineda;ALMEIDA;GUARDA
+Baraçal;Com Exploração;Apeadeiro;Linha da Beira Alta;Baraçal;CELORICO DA BEIRA;GUARDA
+Celorico da Beira;Com Exploração;Estação;Linha da Beira Alta;Forno Telheiro;CELORICO DA BEIRA;GUARDA
+Papízios;Com Exploração;Apeadeiro;Linha da Beira Alta;Carregal do Sal;CARREGAL DO SAL;VISEU
+Mourisca do Vouga;Com Exploração;Apeadeiro;Linha do Vouga;Trofa, Segadães e Lamas do Vouga;ÁGUEDA;AVEIRO
+Bobadela Norte (Inserção C.Mer. Bodadela lado Alverca);Com Exploração;Mercadorias;Linha do Norte;Santa Iria de Azoia, São João da Talha e Bobadela;LOURES;LISBOA
+Cacia ;Com Exploração;Estação;Linha do Norte;Cacia;AVEIRO;AVEIRO
+Sacavém  ;Com Exploração;Apeadeiro;Linha do Norte;Sacavém e Prior Velho;LOURES;LISBOA
+Reguengo - Vale da Pedra - Pontével;Com Exploração;Apeadeiro;Linha do Norte;Vale da Pedra;CARTAXO;SANTARÉM
+Esqueiro;Com Exploração;Apeadeiro;Linha do Minho;Lanhelas;CAMINHA;VIANA DO CASTELO
+Cabanões;Com Exploração;Apeadeiro;Linha do Vouga;Travassô e Óis da Ribeira;ÁGUEDA;AVEIRO
+Azurva;Com Exploração;Apeadeiro;Linha do Vouga;Eixo e Eirol;AVEIRO;AVEIRO
+Leixões;Com Exploração;Estação;Linha de Leixões;Matosinhos e Leça da Palmeira;MATOSINHOS;PORTO
+Louro;Com Exploração;Apeadeiro;Linha do Minho;Louro;VILA NOVA DE FAMALICÃO;BRAGA
+Eixo;Com Exploração;Estação;Linha do Vouga;Eixo e Eirol;AVEIRO;AVEIRO
+Bustelo;Com Exploração;Apeadeiro;Linha do Douro;Bustelo;PENAFIEL;PORTO
+Vale de Santarém;Com Exploração;Apeadeiro;Linha do Norte;Vale de Santarém;SANTARÉM;SANTARÉM
+Ermesinde - B;Com Exploração;Apeadeiro;Concordância São Gemil;Ermesinde;VALONGO;PORTO
+Silvalde-Vouga;Com Exploração;Apeadeiro;Linha do Vouga;Silvalde;ESPINHO;AVEIRO
+Aregos;Com Exploração;Estação;Linha do Douro;Santa Cruz do Douro e São Tomé de Covelas;BAIÃO;PORTO
+Espadaneira;Com Exploração;Apeadeiro;Linha do Norte;São Martinho do Bispo e Ribeira de Frades;COIMBRA;COIMBRA
+Esgueira;Com Exploração;Apeadeiro;Linha do Vouga;Esgueira;AVEIRO;AVEIRO
+Travagem;Com Exploração;Apeadeiro;Linha do Minho;Ermesinde;VALONGO;PORTO
+Marinha Grande;Com Exploração;Estação;Linha do Oeste;Marinha Grande;MARINHA GRANDE;LEIRIA
+Canelas;Com Exploração;Apeadeiro;Linha do Norte;Canelas e Fermelã;ESTARREJA;AVEIRO
+Caminha;Com Exploração;Estação;Linha do Minho;Caminha (Matriz) e Vilarelho;CAMINHA;VIANA DO CASTELO
+Litém;Com Exploração;Apeadeiro;Linha do Norte;Santiago e S. Simão de Litém e Albergaria dos Doze;POMBAL;LEIRIA
+Sampaio-Oleiros;Com Exploração;Apeadeiro;Linha do Vouga;São Paio de Oleiros;SANTA MARIA DA FEIRA;AVEIRO
+São João de Loure;Com Exploração;Apeadeiro;Linha do Vouga;Eixo e Eirol;AVEIRO;AVEIRO
+Carreira;Com Exploração;Apeadeiro;Linha do Minho;Carreira e Fonte Coberta;BARCELOS;BRAGA
+Santarém;Com Exploração;Estação;Linha do Norte;União das freguesias da cidade de Santarém;SANTARÉM;SANTARÉM
+Fungalvaz;Com Exploração;Apeadeiro;Linha do Norte;Assentiz;TORRES NOVAS;SANTARÉM
+Chão de Maçãs-Fátima;Com Exploração;Estação;Linha do Norte;Sabacheira;TOMAR;SANTARÉM
+Mira Sintra - Meleças;Com Exploração;Estação;Linha do Oeste;Queluz e Belas;SINTRA;LISBOA
+Barca da Amieira -Envendos;Com Exploração;Estação;Linha da Beira Baixa;Envendos;MAÇÃO;SANTARÉM
+Runa;Com Exploração;Apeadeiro;Linha do Oeste;Dois Portos e Runa;TORRES VEDRAS;LISBOA
+Ferrão;Com Exploração;Apeadeiro;Linha do Douro;Covas do Douro;SABROSA;VILA REAL
+Vila Fernando;Com Exploração;Apeadeiro;Linha da Beira Alta;Vila Fernando;GUARDA;GUARDA
+Mafra;Com Exploração;Estação;Linha do Oeste;Igreja Nova e Cheleiros;MAFRA;LISBOA
+Castelo Mendo;Com Exploração;Apeadeiro;Linha da Beira Alta;Castelo Mendo, Ade, Monteperobolso e Mesquitela;ALMEIDA;GUARDA
+Maçainhas;Com Exploração;Apeadeiro;Linha da Beira Baixa;Maçainhas;BELMONTE;CASTELO BRANCO
+Malveira;Com Exploração;Estação;Linha do Oeste;Malveira e São Miguel de Alcainça;MAFRA;LISBOA
+Rochoso;Com Exploração;Apeadeiro;Linha da Beira Alta;Rochoso e Monte Margarida;GUARDA;GUARDA
+Sarnadas;Com Exploração;Estação;Linha da Beira Baixa;Sarnadas de Ródão;VILA VELHA DE RÓDÃO;CASTELO BRANCO
+Covilhã;Com Exploração;Estação;Linha da Beira Baixa;Covilhã e Canhoso;COVILHÃ;CASTELO BRANCO
+Alegria;Com Exploração;Apeadeiro;Linha do Douro;Linhares;CARRAZEDA DE ANSIÃES;BRAGANÇA
+Livramento;Com Exploração;Apeadeiro;Linha do Algarve;Luz de Tavira e Santo Estêvão;TAVIRA;FARO
+Porta Nova;Com Exploração;Apeadeiro;Linha do Algarve;Tavira (Santa Maria e Santiago);TAVIRA;FARO
+Casa Branca;Com Exploração;Estação;Linha do Alentejo;Santiago do Escoural;MONTEMOR-O-NOVO;ÉVORA
+Tancos;Com Exploração;Apeadeiro;Linha da Beira Baixa;Praia do Ribatejo;VILA NOVA DA BARQUINHA;SANTARÉM
+Queluz-Belas;Com Exploração;Apeadeiro;Linha de Sintra;Queluz e Belas;SINTRA;LISBOA
+Reveles;Com Exploração;Apeadeiro;Ramal de Alfarelos;Abrunheira, Verride e Vila Nova da Barca;MONTEMOR-O-VELHO;COIMBRA
+Vidigal;Com Exploração;Estação;Linha de Vendas Novas;Vendas Novas;VENDAS NOVAS;ÉVORA
+Canha;Com Exploração;Estação;Linha de Vendas Novas;Canha;MONTIJO;SETÚBAL
+Amoreiras-Odemira;Com Exploração;Estação;Linha do Sul;São Martinho das Amoreiras;ODEMIRA;BEJA
+Azinheira dos Barros ;Com Exploração;Estação;Linha do Sul;Azinheira dos Barros e São Mamede do Sádão;GRÂNDOLA;SETÚBAL
+Petrogal - Asfaltos;Com Exploração;Estação;Ramal Petrogal - Asfaltos;Sines;SINES;SETÚBAL
+Ribeira de Seiça;Com Exploração;Apeadeiro;Linha do Oeste;Paião;FIGUEIRA DA FOZ;COIMBRA
+Fornos de Algodres;Com Exploração;Estação;Linha da Beira Alta;Fornos de Algodres;FORNOS DE ALGODRES;GUARDA
+Barragem de Belver;Com Exploração;Apeadeiro;Linha da Beira Baixa;Ortiga;MAÇÃO;SANTARÉM
+Benespera;Com Exploração;Apeadeiro;Linha da Beira Baixa;Benespera;GUARDA;GUARDA
+Monte Real;Com Exploração;Estação;Linha do Oeste;Souto da Carpalhosa e Ortigosa;LEIRIA;LEIRIA
+Moimenta Alcafache;Com Exploração;Apeadeiro;Linha da Beira Alta;Espinho;MANGUALDE;VISEU
+Esmoriz;Com Exploração;Estação;Linha do Norte;Esmoriz;OVAR;AVEIRO
+Godim;Com Exploração;Estação;Linha do Douro;Peso da Régua e Godim;PESO DA RÉGUA;VILA REAL
+Miuzela;Com Exploração;Apeadeiro;Linha da Beira Alta;Miuzela e Porto de Ovelha;ALMEIDA;GUARDA
+Vale de Prazeres;Com Exploração;Estação;Linha da Beira Baixa;Vale de Prazeres e Mata da Rainha;FUNDÃO;CASTELO BRANCO
+Óbidos;Com Exploração;Apeadeiro;Linha do Oeste;Santa Maria, São Pedro e Sobral da Lagoa;ÓBIDOS;LEIRIA
+Amieira;Com Exploração;Estação;Linha do Oeste;Samuel;SOURE;COIMBRA
+Vila Franca das Naves;Com Exploração;Estação;Linha da Beira Alta;Vila Franca das Naves e Feital;TRANCOSO;GUARDA
+Camarão;Com Exploração;Apeadeiro;Linha do Oeste;Bombarral e Vale Covo;BOMBARRAL;LEIRIA
+Raquete;Com Exploração;Estação;Linha de Sines;Sines;SINES;SETÚBAL
+Tomar;Com Exploração;Estação;Ramal de Tomar;São João Baptista e Santa Maria dos Olivais;TOMAR;SANTARÉM
+Desvio Km 19,5;Com Exploração;Estação;Linha de Vendas Novas;Glória do Ribatejo e Granho;SALVATERRA DE MAGOS;SANTARÉM
+Grândola;Com Exploração;Estação;Linha do Sul;Grândola e Santa Margarida da Serra;GRÂNDOLA;SETÚBAL
+Alvega-Ortiga;Com Exploração;Apeadeiro;Linha da Beira Baixa;Ortiga;MAÇÃO;SANTARÉM
+Sapataria;Com Exploração;Apeadeiro;Linha do Oeste;Sapataria;SOBRAL DE MONTE AGRAÇO;LISBOA
+Leiria;Com Exploração;Estação;Linha do Oeste;Marrazes e Barosa;LEIRIA;LEIRIA
+Arronches;Com Exploração;Apeadeiro;Linha do Leste;Assunção;ARRONCHES;PORTALEGRE
+Caria;Com Exploração;Apeadeiro;Linha da Beira Baixa;Caria;BELMONTE;CASTELO BRANCO
+Canas Felgueira;Com Exploração;Estação;Linha da Beira Alta;Canas de Senhorim;NELAS;VISEU
+Macinhata;Com Exploração;Estação;Linha do Vouga;Macinhata do Vouga;ÁGUEDA;AVEIRO
+Carvalheira - Maceda;Com Exploração;Apeadeiro;Linha do Norte;Maceda;OVAR;AVEIRO
+Francelos Sul;Com Exploração;Estação;Linha do Norte;Gulpilhares e Valadares;VILA NOVA DE GAIA;PORTO
+Francelos Norte;Com Exploração;Estação;Linha do Norte;Gulpilhares e Valadares;VILA NOVA DE GAIA;PORTO
+Fuentes de Onõro;Com Exploração;Estação;Rede Espanhola;;;
+Badajoz;Com Exploração;Estação;Rede Espanhola;;;

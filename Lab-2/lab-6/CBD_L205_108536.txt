@@ -1,0 +1,185 @@
+A base de dados escolhida pertence aos dados publicos, disponibilizados pelo governo portugues, acerca de todas as estações e apiadeiros. 
+
+cbd> db.estacoes.count()
+524
+
+c)
+
+cbd> db.estacoes.find({"Desiggrupo":"Mercadorias"},{"_id":0,"Estado":false})
+[
+  {
+    Designacao: 'Bobadela Sul (Insercao C. Mer. Bobadela lado Oriente)',
+    Desiggrupo: 'Mercadorias',
+    'Designacao Linha': 'Linha do Norte',
+    Freguesia: 'Santa Iria de Azoia, Sao Joao da Talha e Bobadela',
+    Municipio: 'LOURES',
+    Distrito: 'LISBOA'
+  },
+  {
+    Designacao: 'Somincor',
+    Desiggrupo: 'Mercadorias',
+    'Designacao Linha': 'Linha do Sul',
+    Freguesia: 'Santa Maria do Castelo e Santiago e Santa Susana',
+    Municipio: 'ALCACER DO SAL',
+    Distrito: 'SETUBAL'
+  },
+  {
+    Designacao: 'Bobadela Norte (Insercao C.Mer. Bodadela lado Alverca)',
+    Desiggrupo: 'Mercadorias',
+    'Designacao Linha': 'Linha do Norte',
+    Freguesia: 'Santa Iria de Azoia, Sao Joao da Talha e Bobadela',
+    Municipio: 'LOURES',
+    Distrito: 'LISBOA'
+  }
+]
+
+cbd> db.estacoes.find({"Freguesia":""},{"_id":0})
+[
+  {
+    Designacao: 'Tuy',
+    Estado: 'Com Exploracao',
+    Desiggrupo: 'Estacao',
+    'Designacao Linha': 'Rede Espanhola',
+    Freguesia: '',
+    Municipio: '',
+    Distrito: ''
+  },
+  {
+    Designacao: 'Fuentes de Onoro',
+    Estado: 'Com Exploracao',
+    Desiggrupo: 'Estacao',
+    'Designacao Linha': 'Rede Espanhola',
+    Freguesia: '',
+    Municipio: '',
+    Distrito: ''
+  },
+  {
+    Designacao: 'Badajoz',
+    Estado: 'Com Exploracao',
+    Desiggrupo: 'Estacao',
+    'Designacao Linha': 'Rede Espanhola',
+    Freguesia: '',
+    Municipio: '',
+    Distrito: ''
+  }
+]
+
+cbd> db.estacoes.find({"Designacao Linha": "Linha do Minho" },{"Freguesia":1, "Designacao Linha":1, "_id":0, "Distrito":1 })
+[
+  {
+    'Designacao Linha': 'Linha do Minho',
+    Freguesia: 'Valenca, Cristelo Covo e Arao',
+    Distrito: 'VIANA DO CASTELO'
+  },
+  {
+    'Designacao Linha': 'Linha do Minho',
+    Freguesia: 'Darque',
+    Distrito: 'VIANA DO CASTELO'
+  },
+  {
+    'Designacao Linha': 'Linha do Minho',
+    Freguesia: 'Coronado (Sao Romao e Sao Mamede)',
+    Distrito: 'PORTO'
+  },....]
+
+cbd> db.estacoes.find({"Desiggrupo": "Apeadeiro", $or: [{ "Distrito": "VIANA DO CASTELO"},{"Distrito": "GUARDA"}]},{"Freguesia":1, "Designacao Linha":1, "_id":0, "Distrito":1 })
+[
+  {
+    'Designacao Linha': 'Linha do Douro',
+    Freguesia: 'Vila Nova de Foz Coa',
+    Distrito: 'GUARDA'
+  },
+  {
+    'Designacao Linha': 'Linha do Minho',
+    Freguesia: 'Afife',
+    Distrito: 'VIANA DO CASTELO'
+  },...]
+
+cbd> db.estacoes.find({"Distrito":"PORTO", "MUNICIPIO":{$ne:"PORTO"}},{"Freguesia":1, "Designacao Linha":1, "_id":0, "Municipio":true,"Distrito":1 })
+[
+  {
+    'Designacao Linha': 'Linha de Guimaraes',
+    Freguesia: 'Aves',
+    Municipio: 'SANTO TIRSO',
+    Distrito: 'PORTO'
+  },
+  {
+    'Designacao Linha': 'Linha do Douro',
+    Freguesia: 'Santa Cruz do Douro e Sao Tome de Covelas',
+    Municipio: 'BAIAO',
+    Distrito: 'PORTO'
+  },
+  {
+    'Designacao Linha': 'Linha do Douro',
+    Freguesia: 'Vila Mea',
+    Municipio: 'AMARANTE',
+    Distrito: 'PORTO'
+  },...]
+
+cbd> db.estacoes.find({"Freguesia":{$regex:"^A"}, "Desiggrupo": "Apeadeiro", "Designacao Linha": "Linha da Beira Baixa", $where: "this.Distrito != this.Municipio" },{_id:false,Designacao:0})
+[
+  {
+    Estado: 'Com Exploracao',
+    Desiggrupo: 'Apeadeiro',
+    'Designacao Linha': 'Linha da Beira Baixa',
+    Freguesia: 'Alcaide',
+    Municipio: 'FUNDAO',
+    Distrito: 'CASTELO BRANCO'
+  },
+  {
+    Estado: 'Com Exploracao',
+    Desiggrupo: 'Apeadeiro',
+    'Designacao Linha': 'Linha da Beira Baixa',
+    Freguesia: 'Alpedrinha',
+    Municipio: 'FUNDAO',
+    Distrito: 'CASTELO BRANCO'
+  },
+  {
+    Estado: 'Com Exploracao',
+    Desiggrupo: 'Apeadeiro',
+    'Designacao Linha': 'Linha da Beira Baixa',
+    Freguesia: 'Alcaria',
+    Municipio: 'FUNDAO',
+    Distrito: 'CASTELO BRANCO'
+  }
+]
+
+
+d)
+cbd> db.estacoes.aggregate([ { $group: { _id: "$Distrito", count: { $sum: 1 } } }, { $sort: { count: -1 } }] )
+[
+  { _id: 'LISBOA', count: 71 },
+  { _id: 'AVEIRO', count: 71 },
+  { _id: 'PORTO', count: 57 },
+  { _id: 'SETUBAL', count: 42 },
+  { _id: 'SANTAREM', count: 41 },
+  { _id: 'LEIRIA', count: 30 },
+  { _id: 'FARO', count: 30 },
+  { _id: 'COIMBRA', count: 29 },
+  { _id: 'BRAGA', count: 29 },
+  { _id: 'CASTELO BRANCO', count: 22 },
+  { _id: 'GUARDA', count: 20 },
+  { _id: 'VIANA DO CASTELO', count: 19 },
+  { _id: 'VISEU', count: 14 },
+  { _id: 'BEJA', count: 14 },
+  { _id: 'PORTALEGRE', count: 11 },
+  { _id: 'VILA REAL', count: 10 },
+  { _id: 'EVORA', count: 9 },
+  { _id: '', count: 3 },
+  { _id: 'BRAGANCA', count: 2 }
+]
+
+cbd> db.estacoes.aggregate([ { $match: { "Municipio": "VIANA DO CASTELO", "Designacao Linha": "Linha do Minho" } }, { $group: { _id: "$Desiggrupo", count: { $sum: 1 } } }] )
+[ { _id: 'Apeadeiro', count: 6 }, { _id: 'Estacao', count: 2 } ]
+
+cbd> db.estacoes.aggregate([ { $match: { "Designacao Linha": "Linha do Norte" } }, { $project: { Designacao: 1, Municipio: 1,_id:0 } }] )
+[
+  { Designacao: 'Maceda', Municipio: 'OVAR' },
+  { Designacao: 'Moscavide', Municipio: 'LOURES' },
+  { Designacao: 'Vila Nova da Rainha', Municipio: 'AZAMBUJA' },
+  { Designacao: 'Estarreja', Municipio: 'ESTARREJA' },
+  { Designacao: 'Seica-Ourem', Municipio: 'OUREM' },
+  { Designacao: 'Fungalvaz Resguardo', Municipio: 'TOMAR' },
+....]
+
+

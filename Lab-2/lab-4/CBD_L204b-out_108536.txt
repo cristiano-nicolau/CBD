@@ -1,0 +1,7 @@
+Limite maximo de 25 unidades de produtos por utilizador por 30 minuto(s):
+
+Pedido atendido para user1 - product1 (Quantidade existente: 0) (Quantidade pedida: 10) (Quantidade total: 10)
+Pedido atendido para user2 - product2 (Quantidade existente: 0) (Quantidade pedida: 20) (Quantidade total: 20)
+Pedido atendido para user1 - product1 (Quantidade existente: 10) (Quantidade pedida: 10) (Quantidade total: 20)
+Limite excedido. Pedido não atendido para user1 - product1 (Quantidade: 10)
+Limite excedido. Pedido não atendido para user2 - product2 (Quantidade: 20)
