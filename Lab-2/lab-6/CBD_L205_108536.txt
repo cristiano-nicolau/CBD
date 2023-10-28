@@ -1,5 +1,6 @@
 A base de dados escolhida pertence aos dados publicos, disponibilizados pelo governo portugues, acerca de todas as estações e apiadeiros. 
-
+Cada documento, tem a sua "Designacao", ou seja o nome da estaçao ou apeadeiro, tem o "Desiggrupo" que pode ser do tipo 'Mercadorias, 'Estacao' ou 'Apeadeiro'; tem ainda a 'Designacao Linha', ou seja a qual linha pertence a estacao, e ainda a "Freguesia", "Municipio" e "Distrito". No caso da estacao pertencer a "Rede Espanhola", nao tem informaçoes acerca da "Freguesia", "Municipio" e "Distrito"
+ 
 cbd> db.estacoes.count()
 524
 
