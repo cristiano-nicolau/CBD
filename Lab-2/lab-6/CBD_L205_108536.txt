@@ -173,7 +173,7 @@ cbd> db.estacoes.aggregate([ { $group: { _id: "$Distrito", count: { $sum: 1 } } 
 cbd> db.estacoes.aggregate([ { $match: { "Municipio": "VIANA DO CASTELO", "Designacao Linha": "Linha do Minho" } }, { $group: { _id: "$Desiggrupo", count: { $sum: 1 } } }] )
 [ { _id: 'Apeadeiro', count: 6 }, { _id: 'Estacao', count: 2 } ]
 
-cbd> db.estacoes.aggregate([ { $match: { "Designacao Linha": "Linha do Norte" } }, { $project: { Designacao: 1, Municipio: 1,_id:0 } }] )
+cbd> db.estacoes.aggregate([ { $match: { "Designacao Linha": "Linha do Norte" } }, { $project: { Designacao: 1, Municipio: 1, _id:0 } }] )
 [
   { Designacao: 'Maceda', Municipio: 'OVAR' },
   { Designacao: 'Moscavide', Municipio: 'LOURES' },
@@ -183,4 +183,141 @@ cbd> db.estacoes.aggregate([ { $match: { "Designacao Linha": "Linha do Norte" } 
   { Designacao: 'Fungalvaz Resguardo', Municipio: 'TOMAR' },
 ....]
 
+cbd> db.estacoes.aggregate([ { $match: { Desiggrupo: "Mercadorias", Distrito: "LISBOA" } }, { $project: { _id: 0, Estado:0 } }] )
+[
+  {
+    Designacao: 'Bobadela Sul (Insercao C. Mer. Bobadela lado Oriente)',
+    Desiggrupo: 'Mercadorias',
+    'Designacao Linha': 'Linha do Norte',
+    Freguesia: 'Santa Iria de Azoia, Sao Joao da Talha e Bobadela',
+    Municipio: 'LOURES',
+    Distrito: 'LISBOA'
+  },
+  {
+    Designacao: 'Bobadela Norte (Insercao C.Mer. Bodadela lado Alverca)',
+    Desiggrupo: 'Mercadorias',
+    'Designacao Linha': 'Linha do Norte',
+    Freguesia: 'Santa Iria de Azoia, Sao Joao da Talha e Bobadela',
+    Municipio: 'LOURES',
+    Distrito: 'LISBOA'
+  }
+]
+
+cbd> db.estacoes.aggregate([ { $match: { Distrito: "LISBOA" } }, { $group: { _id: "$Designacao Linha", countEstacoes: { $sum: { $cond: { if: { $eq: ["$Desiggrupo", "Estacao"] }, then: 1, else: 0 } } }, countApeadeiros: { $sum: { $cond: { ifif: { $eq: ["$Desiggrupo", "Apeadeiro"] }, then: 1, else: 0 } } } } }] )
+[
+  { _id: 'Linha de Cintura', countEstacoes: 5, countApeadeiros: 2 },
+  { _id: 'Linha do Sul', countEstacoes: 1, countApeadeiros: 0 },
+  { _id: 'Linha de Cascais', countEstacoes: 9, countApeadeiros: 8 },
+  { _id: 'Linha do Norte', countEstacoes: 5, countApeadeiros: 10 },
+  { _id: 'Linha do Oeste', countEstacoes: 9, countApeadeiros: 7 },
+  { _id: 'Linha de Sintra', countEstacoes: 6, countApeadeiros: 7 }
+]
+
+cbd> db.estacoes.aggregate([ { $group: { _id: "$Distrito", countEstacoes: { $sum: { $cond: { if: { $eq: ["$Desiggrupo", "Estacao"] }, then: 1, else: 0 } } }, countApeadeiros: { $sum: { $cond: { if: { $eq: ["$Desiggrupo", "Apeadeiro"] }, then: 1, else: 0 } } } } }, { $project: { _id: 1, countEstacoes: 1, countApeadeiros: 1, totalCount: { $add: ["$countEstacoes", "$countApeadeiros"] } } }, { $sort: { totalCount: -1 } }] )
+[
+  {
+    _id: 'AVEIRO',
+    countEstacoes: 24,
+    countApeadeiros: 47,
+    totalCount: 71
+  },
+  {
+    _id: 'LISBOA',
+    countEstacoes: 35,
+    countApeadeiros: 34,
+    totalCount: 69
+  },
+  {
+    _id: 'PORTO',
+    countEstacoes: 29,
+    countApeadeiros: 28,
+    totalCount: 57
+  },
+  {
+    _id: 'SANTAREM',
+    countEstacoes: 26,
+    countApeadeiros: 15,
+    totalCount: 41
+  },
+  {
+    _id: 'SETUBAL',
+    countEstacoes: 26,
+    countApeadeiros: 15,
+    totalCount: 41
+  },
+  {
+    _id: 'LEIRIA',
+    countEstacoes: 13,
+    countApeadeiros: 17,
+    totalCount: 30
+  },
+  {
+    _id: 'FARO',
+    countEstacoes: 17,
+    countApeadeiros: 13,
+    totalCount: 30
+  },
+  {
+    _id: 'COIMBRA',
+    countEstacoes: 10,
+    countApeadeiros: 19,
+    totalCount: 29
+  },
+  {
+    _id: 'BRAGA',
+    countEstacoes: 12,
+    countApeadeiros: 17,
+    totalCount: 29
+  },
+  {
+    _id: 'CASTELO BRANCO',
+    countEstacoes: 11,
+    countApeadeiros: 11,
+    totalCount: 22
+  },
+  {
+    _id: 'GUARDA',
+    countEstacoes: 8,
+    countApeadeiros: 12,
+    totalCount: 20
+  },
+  {
+    _id: 'VIANA DO CASTELO',
+    countEstacoes: 6,
+    countApeadeiros: 13,
+    totalCount: 19
+  },
+  {
+    _id: 'VISEU',
+    countEstacoes: 7,
+    countApeadeiros: 7,
+    totalCount: 14
+  },
+  {
+    _id: 'BEJA',
+    countEstacoes: 10,
+    countApeadeiros: 4,
+    totalCount: 14
+  },
+  {
+    _id: 'PORTALEGRE',
+    countEstacoes: 4,
+    countApeadeiros: 7,
+    totalCount: 11
+  },
+  {
+    _id: 'VILA REAL',
+    countEstacoes: 4,
+    countApeadeiros: 6,
+    totalCount: 10
+  },
+  { _id: 'EVORA', countEstacoes: 7, countApeadeiros: 2, totalCount: 9 },
+  { _id: '', countEstacoes: 3, countApeadeiros: 0, totalCount: 3 },
+  {
+    _id: 'BRAGANCA',
+    countEstacoes: 1,
+    countApeadeiros: 1,
+    totalCount: 2
+  }
+]
 

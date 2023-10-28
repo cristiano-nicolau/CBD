@@ -1,0 +1,32 @@
+MongoDB é um banco de dados orientado a documentos.
+Os dados são armazenados em documentos BSON (Binary JSON), que são flexíveis e podem ter estruturas diferentes.
+É altamente escalável e adequado para cargas de trabalho de leitura/gravação complexas.
+
+
+Redis é uma database em memória, que armazena dados em cache e realiza operações de alta velocidade.
+Os dados são armazenados como pares chave-valor em memória, o que permite acesso rápido.
+
+
+
+
+Redis
+
+    Prós:
+        Extremamente rápido para operações de leitura/escrita em memória.
+        Adequado para controlar as solicitações em um intervalo de tempo curto.
+        Pode ser mais adequado para limites de tempo mais pequenos.
+
+    Contras:
+        Limitado em termos de complexidade de dados.
+
+
+
+MongoDB
+
+    Prós:
+        Oferece suporte a consultas complexas e agregações, o que é útil se a análise de dados for necessária.
+        Mais flexível para acomodar dados complexos.
+        Pode ser adequado para cenários em que os limites de tempo são maiores.
+
+    Contras:
+        Mais lento em operações simples e consumo de mais recursos em comparação com Redis.
