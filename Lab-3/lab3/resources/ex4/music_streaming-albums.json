@@ -1,0 +1,38 @@
+
+ [json]
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                            {"album_id": "X_Y", "artist_id": "COLDPLAY", "release_date": "2005-06-06", "title": "X&Y", "tracks": ["SPEED_OF_SOUND", "TALK"]}
+                                                  {"album_id": "VIDA_BOA", "artist_id": "SLOWJ", "release_date": "2020-10-30", "title": "Vida Boa", "tracks": ["VIDA_BOA", "LINHAS TORTAS"]}
+                                    {"album_id": "MAIS_ANTIGO", "artist_id": "BISPO", "release_date": "2010-09-13", "title": "Mais Antigo", "tracks": ["SEMPRE_ACESSO", "SEMPRE_TE_ESPERO"]}
+                                         {"album_id": "YOU_ARE_FORGIVEN", "artist_id": "SLOWJ", "release_date": "2018-04-27", "title": "You Are Forgiven", "tracks": ["HISTORIAS_DA_NOITE"]}
+                                                    {"album_id": "19", "artist_id": "ADELE", "release_date": "2008-01-28", "title": "19", "tracks": ["CHASING_PAVEMENTS", "HOMETOWN_GLORY"]}
+                     {"album_id": "NOTHING_BUT_THE_BEAT", "artist_id": "DAVID_GUETTA", "release_date": "2011-08-26", "title": "Nothing but the Beat", "tracks": ["TITANIUM", "WITHOUT_YOU"]}
+                                                {"album_id": "21", "artist_id": "ADELE", "release_date": "2011-01-24", "title": "21", "tracks": ["ROLLING_IN_THE_DEEP", "SOMEONE_LIKE_YOU"]}
+                                                         {"album_id": "OS_TAIS", "artist_id": "CARLAO", "release_date": "2016-03-11", "title": "Os Tais", "tracks": ["OS_TAIS", "BIG_BANG"]}
+                                                   {"album_id": "PARACHUTES", "artist_id": "COLDPLAY", "release_date": "2000-07-10", "title": "Parachutes", "tracks": ["FIX_YOU", "YELLOW"]}
+                                               {"album_id": "7", "artist_id": "DAVID_GUETTA", "release_date": "2018-09-14", "title": "7", "tracks": ["DONTS_LEAVE_ME_ALONE", "SAY_MY_NAME"]}
+                                                {"album_id": "HYPNOTIZED", "artist_id": "AMELIE_LENS", "release_date": "2017-09-22", "title": "Hypnotized", "tracks": ["FORM", "HYPOCRITE"]}
+                                               {"album_id": "PURPOSE", "artist_id": "JUSTIN_BIEBER", "release_date": "2015-11-13", "title": "Purpose", "tracks": ["SORRY", "LOVE_YOURSELF"]}
+                                                            {"album_id": "SMILE", "artist_id": "KATY_PERRY", "release_date": "2020-08-28", "title": "Smile", "tracks": ["DAISIES", "SMILE"]}
+                    {"album_id": "THE_ART_OF_SLOWING_DOWN", "artist_id": "SLOWJ", "release_date": "2017-05-12", "title": "The Art of Slowing Down", "tracks": ["TEMA", "BEM-VINDO_AO_JAZZ"]}
+                                    {"album_id": "EXPECTATIVAS", "artist_id": "BOSS_AC", "release_date": "2018-09-21", "title": "Expectativas", "tracks": ["QUANDO_DA_SERIO", "VEM_PRONTO"]}
+                 {"album_id": "DOO_WOPS_HOOLIGANS", "artist_id": "BRUNO_MARS", "release_date": "2010-10-05", "title": "Doo-Wops & Hooligans", "tracks": ["GRENADE", "JUST_THE_WAY_YOU_ARE"]}
+                                    {"album_id": "WITNESS", "artist_id": "KATY_PERRY", "release_date": "2017-06-09", "title": "Witness", "tracks": ["CHAINED_TO_THE_RHYTHM", "BON_APPETIT"]}
+                                               {"album_id": "SELECTED", "artist_id": "CHARLOTTE_DE_WITTE", "release_date": "2016-09-19", "title": "Selected", "tracks": ["TRIP", "CONTROL"]}
+                                        {"album_id": "ENTRETENIMENTO", "artist_id": "CARLAO", "release_date": "2018-11-23", "title": "Entretenimento?", "tracks": ["CUIDADO", "DOIS_DEMOS"]}
+                                                   {"album_id": "FORA_D_HORAS", "artist_id": "BISPO", "release_date": "2015-09-25", "title": "Fora DHoras", "tracks": ["QUERO_FAZER_HAPPY"]}
+         {"album_id": "RITMO_AMOR_E_PALAVRAS", "artist_id": "BOSS_AC", "release_date": "2009-11-23", "title": "Ritmo, Amor e Palavras", "tracks": ["QUE_DIZER_MAIS", "BITES_AND_SCRATCHES"]}
+                                                                  {"album_id": "25", "artist_id": "ADELE", "release_date": "2015-11-20", "title": "25", "tracks": ["HELLO", "SEND_MY_LOVE"]}
+      {"album_id": "A_RUSH_OF_BLOOD_TO_THE_HEAD", "artist_id": "COLDPLAY", "release_date": "2002-08-26", "title": "A Rush of Blood to the Head", "tracks": ["IN_MY_PLACE", "THE_SCIENTIST"]}
+                                    {"album_id": "MY_WORLD_2.0", "artist_id": "JUSTIN_BIEBER", "release_date": "2010-03-19", "title": "My World 2.0", "tracks": ["BABY", "NEVER_SAY_NEVER"]}
+       {"album_id": "UNORTHODOX_JUKEBOX", "artist_id": "BRUNO_MARS", "release_date": "2012-12-07", "title": "Unorthodox Jukebox", "tracks": ["LOCKED_OUT_OF_HEAVEN", "WHEN_I_WAS_YOUR_MAN"]}
+                                                                {"album_id": "TIM", "artist_id": "AVICII", "release_date": "2019-06-06", "title": "TIM", "tracks": ["TOUGH_LOVE", "HEAVEN"]}
+                                  {"album_id": "BELIEVE", "artist_id": "JUSTIN_BIEBER", "release_date": "2012-06-15", "title": "Believe", "tracks": ["BOYFRIEND", "AS_LONG_AS_YOU_LOVE_ME"]}
+                                                          {"album_id": "PRISM", "artist_id": "KATY_PERRY", "release_date": "2013-10-18", "title": "Prism", "tracks": ["ROAR", "DARK_HORSE"]}
+                                        {"album_id": "DIVIDE", "artist_id": "ED_SHEERAN", "release_date": "2017-03-03", "title": "Divide", "tracks": ["SHAPE_OF_YOU", "CASTLE_ON_THE_HILL"]}
+                                              {"album_id": "QUARENTA", "artist_id": "CARLAO", "release_date": "2015-10-30", "title": "Quarenta", "tracks": ["OS_DEZ_MANDAMENTOS", "DUETOS"]}
+                              {"album_id": "AC_PARA_OS_AMIGOS", "artist_id": "BOSS_AC", "release_date": "2013-04-12", "title": "AC para os Amigos", "tracks": ["DAS_2_UUM", "CUIDA_DE_MIM"]}
+ {"album_id": "NO_6_COLLABORATIONS_PROJECT", "artist_id": "ED_SHEERAN", "release_date": "2019-07-12", "title": "No.6 Collaborations Project", "tracks": ["I_DONT_CARE", "BEAUTIFUL_PEOPLE"]}
+                                      {"album_id": "24K_MAGIC", "artist_id": "BRUNO_MARS", "release_date": "2016-11-18", "title": "24K Magic", "tracks": ["24K_MAGIC", "THATS_WHAT_I_LIKE"]}
+
+(33 rows)

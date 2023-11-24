@@ -1,0 +1,16 @@
+
+ [json]
+------------------------------------------------------------------------------------------------------------------------------------------------
+ {"user_id": "U11", "email": "cristianonicolau@ua.com", "playlists": {"1": "Tecno Party", "2": "bater chinelo noite toda"}, "username": "Nico"}
+                      {"user_id": "U3", "email": "user3@email.com", "playlists": {"1": "Rock Classics", "2": "Chill Out"}, "username": "user3"}
+              {"user_id": "U2", "email": "user2@email.com", "playlists": {"1": "Playlist Trance", "2": "Musicas de Amor"}, "username": "user2"}
+                     {"user_id": "U9", "email": "user9@email.com", "playlists": {"1": "R&B Hits", "2": "Soulful Sundays"}, "username": "user9"}
+                 {"user_id": "U10", "email": "user10@email.com", "playlists": {"1": "Dance Party", "2": "Road Trip Mix"}, "username": "user10"}
+                {"user_id": "U8", "email": "user8@email.com", "playlists": {"1": "Electronic Bliss", "2": "Gaming Tunes"}, "username": "user8"}
+                       {"user_id": "U5", "email": "user5@email.com", "playlists": {"1": "Indie Jams", "2": "Study Beats"}, "username": "user5"}
+                     {"user_id": "U7", "email": "user7@email.com", "playlists": {"1": "Reggae Vibes", "2": "Latin Party"}, "username": "user7"}
+                   {"user_id": "U1", "email": "user1@email.com", "playlists": {"1": "Playlist 1", "2": "Playlist Techno"}, "username": "user1"}
+                    {"user_id": "U4", "email": "user4@email.com", "playlists": {"1": "Hip Hop Vibes", "2": "Summer Hits"}, "username": "user4"}
+            {"user_id": "U6", "email": "user6@email.com", "playlists": {"1": "Classical Moments", "2": "Late Night Jazz"}, "username": "user6"}
+
+(11 rows)

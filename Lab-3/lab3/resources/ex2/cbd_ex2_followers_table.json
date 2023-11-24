@@ -1,0 +1,18 @@
+
+ [json]
+-----------------------------------------------------------------------
+       {"id_video": 5, "users": ["diogo99", "lewandowski9", "ramos4"]}
+                      {"id_video": 10, "users": ["diogo99", "ramos4"]}
+          {"id_video": 13, "users": ["diogo99", "neymar11", "ramos4"]}
+                      {"id_video": 11, "users": ["diogo99", "ramos4"]}
+            {"id_video": 1, "users": ["diogo99", "messi10", "ramos4"]}
+              {"id_video": 8, "users": ["diogo99", "kane9", "ramos4"]}
+        {"id_video": 2, "users": ["kane9", "lewandowski9", "salah11"]}
+            {"id_video": 4, "users": ["diogo99", "mbappe7", "ramos4"]}
+         {"id_video": 7, "users": ["debruyne17", "diogo99", "ramos4"]}
+            {"id_video": 6, "users": ["diogo99", "ramos4", "salah11"]}
+           {"id_video": 9, "users": ["diogo99", "modric10", "ramos4"]}
+  {"id_video": 12, "users": ["cristianoronaldo", "diogo99", "ramos4"]}
+ {"id_video": 3, "users": ["cristianoronaldo", "messi10", "neymar11"]}
+
+(13 rows)

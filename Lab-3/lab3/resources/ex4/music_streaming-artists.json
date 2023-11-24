@@ -1,0 +1,24 @@
+
+ [json]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+       {"artist_id": "BRUNO_MARS", "albums": ["Doo-Wops & Hooligans", "Unorthodox Jukebox", "24K Magic"], "genres": ["Funk", "Pop"], "name": "Bruno Mars"}
+                      {"artist_id": "DAVID_GUETTA", "albums": ["Listen", "Nothing but the Beat", "7"], "genres": ["EDM", "House"], "name": "David Guetta"}
+                                           {"artist_id": "BISPO", "albums": ["Mais Antigo", "Fora DHoras"], "genres": ["Hip Hop", "Rap"], "name": "Bispo"}
+  {"artist_id": "SEUJORGE", "albums": ["Carolina", "Cru", "Músicas para Churrasco Vol. 1"], "genres": ["Bossa Nova", "MPB", "Samba"], "name": "Seu Jorge"}
+             {"artist_id": "SLOWJ", "albums": ["The Art of Slowing Down", "You Are Forgiven", "Vida Boa"], "genres": ["Hip Hop", "Rap"], "name": "Slow J"}
+            {"artist_id": "CHARLOTTE_DE_WITTE", "albums": ["Selected", "Closer", "Return to Nowhere"], "genres": ["Techno"], "name": "Charlotte de Witte"}
+                                      {"artist_id": "KATY_PERRY", "albums": ["Prism", "Witness", "Smile"], "genres": ["Pop", "R&B"], "name": "Katy Perry"}
+                                           {"artist_id": "ADELE", "albums": ["19", "21", "25"], "genres": ["Blue-Eyed Soul", "Pop Soul"], "name": "Adele"}
+                {"artist_id": "ED_SHEERAN", "albums": ["Divide", "No.6 Collaborations Project", "÷"], "genres": ["Folk Pop", "Pop"], "name": "Ed Sheeran"}
+                             {"artist_id": "CARLAO", "albums": ["Quarenta", "Entretenimento?", "Os Tais"], "genres": ["Hip Hop", "Rap"], "name": "Carlao"}
+                                   {"artist_id": "REGULA", "albums": ["Ganja", "Ouro Sobre Azul", "Casa"], "genres": ["Hip Hop", "Rap"], "name": "Regula"}
+      {"artist_id": "BOSS_AC", "albums": ["Ritmo, Amor e Palavras", "AC para os Amigos", "Expectativas"], "genres": ["Hip Hop", "Rap"], "name": "Boss AC"}
+ {"artist_id": "COLDPLAY", "albums": ["Parachutes", "A Rush of Blood to the Head", "X&Y"], "genres": ["Alternative Rock", "Pop Rock"], "name": "Coldplay"}
+                                     {"artist_id": "AMELIE_LENS", "albums": ["Hypnotized", "Form", "Recall"], "genres": ["Techno"], "name": "Amelie Lens"}
+                       {"artist_id": "JUSTIN_BIEBER", "albums": ["My World 2.0", "Believe", "Purpose"], "genres": ["Pop", "R&B"], "name": "Justin Bieber"}
+                {"artist_id": "AMALIA_RODRIGUES", "albums": ["Amália Rodrigues e os seus maiores êxitos"], "genres": ["Fado"], "name": "Amália Rodrigues"}
+                 {"artist_id": "DAMAFARIA", "albums": ["À Procura de Nada", "Oquelávai", "Palavras Soltas"], "genres": ["Hip Hop", "Rap"], "name": "Dama"}
+    {"artist_id": "DEOLINDA", "albums": ["Canção ao Lado", "Dois Selos e Um Carimbo", "Mundo Pequenino"], "genres": ["Folk", "Indie"], "name": "Deolinda"}
+                                               {"artist_id": "AVICII", "albums": ["True", "Stories", "TIM"], "genres": ["EDM", "House"], "name": "Avicii"}
+
+(19 rows)

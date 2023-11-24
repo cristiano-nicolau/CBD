@@ -1,0 +1,20 @@
+
+ [json]
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                            {"author": "salah11", "ts": "2023-11-16 15:14:56.678Z", "description": "Salah lidera o ataque", "id": 6, "name": "Gols decisivos", "tags": ["football", "highlights"]}
+                      {"author": "mbappe7", "ts": "2023-11-16 15:14:56.674Z", "description": "Mbappe brilha novamente", "id": 4, "name": "Velocidade e habilidade", "tags": ["football", "speed"]}
+               {"author": "lewandowski9", "ts": "2023-11-16 15:14:56.676Z", "description": "Lewandowski faz história", "id": 5, "name": "Hat-trick impressionante", "tags": ["football", "goals"]}
+          {"author": "lewandowski9", "ts": "2023-11-16 15:14:56.694Z", "description": "Lewandowski comenta a partida", "id": 14, "name": "Entrevista pós-jogo", "tags": ["football", "interview"]}
+                    {"author": "neymar11", "ts": "2023-11-16 15:14:56.673Z", "description": "Show de Neymar em campo", "id": 3, "name": "Gols e assistências", "tags": ["football", "highlights"]}
+                 {"author": "neymar11", "ts": "2023-11-16 15:14:56.692Z", "description": "Neymar esbanja criatividade", "id": 13, "name": "Jogadas extravagantes", "tags": ["football", "skills"]}
+    {"author": "cristianoronaldo", "ts": "2023-11-16 15:14:56.669Z", "description": "Melhores momentos do jogo", "id": 1, "name": "Gol de bicicleta incrível", "tags": ["football", "highlights"]}
+ {"author": "cristianoronaldo", "ts": "2023-11-16 15:14:56.689Z", "description": "Ronaldo aprimorando suas técnicas", "id": 12, "name": "Treino de habilidades", "tags": ["football", "training"]}
+                      {"author": "ramos4", "ts": "2023-11-16 15:14:56.685Z", "description": "Sergio Ramos, o pilar defensivo", "id": 10, "name": "Defesa sólida", "tags": ["defense", "football"]}
+             {"author": "ramos4", "ts": "2023-11-16 15:14:56.687Z", "description": "Ramos mostra sua forca aérea", "id": 11, "name": "Gol de cabeca poderoso", "tags": ["football", "highlights"]}
+      {"author": "diogo99", "ts": "2023-11-16 15:14:56.695Z", "description": "Noite de champions incrivel", "id": 15, "name": "Melhores defesas", "tags": ["football", "goalkepar", "highlights"]}
+                         {"author": "modric10", "ts": "2023-11-16 15:14:56.684Z", "description": "Modric, o cérebro do time", "id": 9, "name": "Controle de jogo", "tags": ["football", "skills"]}
+                            {"author": "kane9", "ts": "2023-11-16 15:14:56.682Z", "description": "Kane balanca as redes", "id": 8, "name": "Artilheiro implacável", "tags": ["football", "goals"]}
+                              {"author": "messi10", "ts": "2023-11-16 15:14:56.671Z", "description": "Magia nos pés de Messi", "id": 2, "name": "Dribles mágicos", "tags": ["football", "skills"]}
+                     {"author": "debruyne17", "ts": "2023-11-16 15:14:56.680Z", "description": "De Bruyne, o maestro", "id": 7, "name": "Assistências incríveis", "tags": ["assists", "football"]}
+
+(15 rows)

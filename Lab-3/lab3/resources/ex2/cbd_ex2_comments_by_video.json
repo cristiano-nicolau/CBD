@@ -1,0 +1,18 @@
+
+ [json]
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+ {"id_video": 5, "ts": "2023-11-16 15:14:56.803Z", "author": "diogo99", "comment": "Mais historia no futebol mundial, lindo", "username": "diogo99"}
+                           {"id_video": 10, "ts": "2023-11-16 15:14:56.793Z", "author": "mbappe7", "comment": "Eso meu rei!", "username": "mbappe7"}
+                               {"id_video": 13, "ts": "2023-11-16 15:14:56.801Z", "author": "kane9", "comment": "Es lindo rei", "username": "kane9"}
+                        {"id_video": 11, "ts": "2023-11-16 15:14:56.804Z", "author": "neymar11", "comment": "Golaco mesmo!", "username": "neymar11"}
+                         {"id_video": 1, "ts": "2023-11-16 15:14:56.791Z", "author": "neymar11", "comment": "Golaco mesmo!", "username": "neymar11"}
+                             {"id_video": 1, "ts": "2023-11-16 15:14:56.790Z", "author": "messi10", "comment": "Que golaco!", "username": "messi10"}
+               {"id_video": 2, "ts": "2023-11-16 15:14:56.796Z", "author": "lewandowski9", "comment": "Que habilidade!", "username": "lewandowski9"}
+       {"id_video": 15, "ts": "2023-11-16 15:14:56.799Z", "author": "cristianoronaldo", "comment": "Voa meu menino", "username": "cristianoronaldo"}
+                                 {"id_video": 7, "ts": "2023-11-16 15:14:56.800Z", "author": "kane9", "comment": "Jogas tanto", "username": "kane9"}
+           {"id_video": 6, "ts": "2023-11-16 15:14:56.794Z", "author": "cristianoronaldo", "comment": "Que drible!", "username": "cristianoronaldo"}
+                             {"id_video": 9, "ts": "2023-11-16 15:14:56.797Z", "author": "salah11", "comment": "Que drible!", "username": "salah11"}
+                     {"id_video": 12, "ts": "2023-11-16 15:14:56.807Z", "author": "ramos4", "comment": "Saudades tuas Rei <3", "username": "ramos4"}
+              {"id_video": 3, "ts": "2023-11-16 15:14:56.805Z", "author": "kane9", "comment": "jogas tanto com a bola nos pes", "username": "kane9"}
+
+(13 rows)

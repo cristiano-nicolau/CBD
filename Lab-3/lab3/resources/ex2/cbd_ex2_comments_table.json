@@ -1,0 +1,18 @@
+
+ [json]
+----------------------------------------------------------------------------------------------------------------------------------------
+                     {"id": 5, "author": "lewandowski9", "comment": "Que habilidade!", "id_video": 2, "ts": "2023-11-16 15:14:56.703Z"}
+ {"id": 10, "author": "diogo99", "comment": "Mais historia no futebol mundial, lindo", "id_video": 5, "ts": "2023-11-16 15:14:56.710Z"}
+                    {"id": 13, "author": "ramos4", "comment": "Saudades tuas Rei <3", "id_video": 12, "ts": "2023-11-16 15:14:56.714Z"}
+                         {"id": 11, "author": "neymar11", "comment": "Golaco mesmo!", "id_video": 11, "ts": "2023-11-16 15:14:56.711Z"}
+                              {"id": 1, "author": "messi10", "comment": "Que golaco!", "id_video": 1, "ts": "2023-11-16 15:14:56.697Z"}
+                                {"id": 8, "author": "kane9", "comment": "Jogas tanto", "id_video": 7, "ts": "2023-11-16 15:14:56.707Z"}
+                           {"id": 2, "author": "neymar11", "comment": "Golaco mesmo!", "id_video": 1, "ts": "2023-11-16 15:14:56.698Z"}
+                     {"id": 4, "author": "cristianoronaldo", "comment": "Que drible!", "id_video": 6, "ts": "2023-11-16 15:14:56.701Z"}
+                 {"id": 7, "author": "cristianoronaldo", "comment": "Voa meu menino", "id_video": 15, "ts": "2023-11-16 15:14:56.706Z"}
+                              {"id": 6, "author": "salah11", "comment": "Que drible!", "id_video": 9, "ts": "2023-11-16 15:14:56.704Z"}
+                              {"id": 9, "author": "kane9", "comment": "Es lindo rei", "id_video": 13, "ts": "2023-11-16 15:14:56.708Z"}
+            {"id": 12, "author": "kane9", "comment": "jogas tanto com a bola nos pes", "id_video": 3, "ts": "2023-11-16 15:14:56.713Z"}
+                            {"id": 3, "author": "mbappe7", "comment": "Eso meu rei!", "id_video": 10, "ts": "2023-11-16 15:14:56.700Z"}
+
+(13 rows)

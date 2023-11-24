@@ -1,0 +1,18 @@
+
+ [json]
+--------------------------------------------------------------------------------------------------------------------------------
+                             {"username": "salah11", "ts": "2023-11-16 15:14:56.777Z", "comment": "Que drible!", "id_video": 9}
+                           {"username": "mbappe7", "ts": "2023-11-16 15:14:56.773Z", "comment": "Eso meu rei!", "id_video": 10}
+                    {"username": "lewandowski9", "ts": "2023-11-16 15:14:56.775Z", "comment": "Que habilidade!", "id_video": 2}
+                         {"username": "neymar11", "ts": "2023-11-16 15:14:56.785Z", "comment": "Golaco mesmo!", "id_video": 11}
+                          {"username": "neymar11", "ts": "2023-11-16 15:14:56.771Z", "comment": "Golaco mesmo!", "id_video": 1}
+                {"username": "cristianoronaldo", "ts": "2023-11-16 15:14:56.779Z", "comment": "Voa meu menino", "id_video": 15}
+                    {"username": "cristianoronaldo", "ts": "2023-11-16 15:14:56.774Z", "comment": "Que drible!", "id_video": 6}
+                    {"username": "ramos4", "ts": "2023-11-16 15:14:56.788Z", "comment": "Saudades tuas Rei <3", "id_video": 12}
+ {"username": "diogo99", "ts": "2023-11-16 15:14:56.784Z", "comment": "Mais historia no futebol mundial, lindo", "id_video": 5}
+            {"username": "kane9", "ts": "2023-11-16 15:14:56.787Z", "comment": "jogas tanto com a bola nos pes", "id_video": 3}
+                             {"username": "kane9", "ts": "2023-11-16 15:14:56.782Z", "comment": "Es lindo rei", "id_video": 13}
+                               {"username": "kane9", "ts": "2023-11-16 15:14:56.780Z", "comment": "Jogas tanto", "id_video": 7}
+                             {"username": "messi10", "ts": "2023-11-16 15:14:56.770Z", "comment": "Que golaco!", "id_video": 1}
+
+(13 rows)

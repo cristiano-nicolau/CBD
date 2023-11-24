@@ -1,0 +1,77 @@
+>> Connected to Cassandra (127.19.0.2:9042)
+Alinea A:
+
+Inserts done.
+
+Update name to 'MELHOR_MUNDO_CR7' where username is 'cristianoronaldo'. 
+Row[cristianoronaldo, ronaldo@football.com, MELHOR_MUNDO_CR7, Thu Nov 16 15:14:56 WET 2023]
+Update name to 'NEYMARZETE' where username is 'neymar11'. 
+Row[neymar11, neymar@football.com, NEYMARZETE, Thu Nov 16 15:14:56 WET 2023]
+Updates done.
+
+Get all videos posted by username 'neymar11'.
+Row[neymar11, Thu Nov 16 15:14:56 WET 2023, Show de Neymar em campo, 3, Gols e assistências, [football, highlights]]
+Row[neymar11, Thu Nov 16 15:14:56 WET 2023, Neymar esbanja criatividade, 13, Jogadas extravagantes, [football, skills]]
+Get all followers of video with id 7.
+Row[7, [debruyne17, diogo99, ramos4]]
+Get 5 most recent videos.
+Row[5, Thu Nov 16 15:14:56 WET 2023, lewandowski9, Lewandowski faz história, Hat-trick impressionante, [football, goals]]
+Row[10, Thu Nov 16 15:14:56 WET 2023, ramos4, Sergio Ramos, o pilar defensivo, Defesa sólida, [defense, football]]
+Row[13, Thu Nov 16 15:14:56 WET 2023, neymar11, Neymar esbanja criatividade, Jogadas extravagantes, [football, skills]]
+Row[11, Thu Nov 16 15:14:56 WET 2023, ramos4, Ramos mostra sua forca aérea, Gol de cabeca poderoso, [football, highlights]]
+Row[1, Thu Nov 16 15:14:56 WET 2023, cristianoronaldo, Melhores momentos do jogo, Gol de bicicleta incrível, [football, highlights]]
+Get tags of video with id 4'.
+Row[[football, speed]]
+Searches done.
+
+
+ *************************************
+
+Alinea B:
+
+2. Lista das tags de determinado vídeo
+Row[5, [football, goals]]
+7. Todos os seguidores (followers) de determinado vídeo
+Row[[diogo99, messi10, ramos4]]
+10. Uma query que retorne todos os videos e que mostre claramente a forma pela qual estao ordenados
+Row[5, Thu Nov 16 15:14:56 WET 2023, lewandowski9, Lewandowski faz história, Hat-trick impressionante, [football, goals]]
+Row[10, Thu Nov 16 15:14:56 WET 2023, ramos4, Sergio Ramos, o pilar defensivo, Defesa sólida, [defense, football]]
+Row[13, Thu Nov 16 15:14:56 WET 2023, neymar11, Neymar esbanja criatividade, Jogadas extravagantes, [football, skills]]
+Row[11, Thu Nov 16 15:14:56 WET 2023, ramos4, Ramos mostra sua forca aérea, Gol de cabeca poderoso, [football, highlights]]
+Row[1, Thu Nov 16 15:14:56 WET 2023, cristianoronaldo, Melhores momentos do jogo, Gol de bicicleta incrível, [football, highlights]]
+Row[8, Thu Nov 16 15:14:56 WET 2023, kane9, Kane balanca as redes, Artilheiro implacável, [football, goals]]
+Row[2, Thu Nov 16 15:14:56 WET 2023, messi10, Magia nos pés de Messi, Dribles mágicos, [football, skills]]
+Row[4, Thu Nov 16 15:14:56 WET 2023, mbappe7, Mbappe brilha novamente, Velocidade e habilidade, [football, speed]]
+Row[15, Thu Nov 16 15:14:56 WET 2023, diogo99, Noite de champions incrivel, Melhores defesas, [football, goalkepar, highlights]]
+Row[15, Thu Nov 23 16:00:37 WET 2023, kane9, Show de Kane, liga alema, Goleada Magnifica ao Dortmund, [football, goals, highlights]]
+Row[15, Thu Nov 23 16:03:06 WET 2023, kane9, Show de Kane, liga alema, Goleada Magnifica ao Dortmund, [football, goals, highlights]]
+Row[15, Thu Nov 23 16:06:21 WET 2023, kane9, Show de Kane, liga alema, Goleada Magnifica ao Dortmund, [football, goals, highlights]]
+Row[15, Thu Nov 23 16:09:00 WET 2023, kane9, Show de Kane, liga alema, Goleada Magnifica ao Dortmund, [football, goals, highlights]]
+Row[15, Thu Nov 23 16:12:02 WET 2023, kane9, Show de Kane, liga alema, Goleada Magnifica ao Dortmund, [football, goals, highlights]]
+Row[15, Thu Nov 23 16:12:42 WET 2023, kane9, Show de Kane, liga alema, Goleada Magnifica ao Dortmund, [football, goals, highlights]]
+Row[15, Thu Nov 23 16:13:12 WET 2023, kane9, Show de Kane, liga alema, Goleada Magnifica ao Dortmund, [football, goals, highlights]]
+Row[15, Thu Nov 23 16:14:01 WET 2023, kane9, Show de Kane, liga alema, Goleada Magnifica ao Dortmund, [football, goals, highlights]]
+Row[15, Thu Nov 23 16:14:38 WET 2023, kane9, Show de Kane, liga alema, Goleada Magnifica ao Dortmund, [football, goals, highlights]]
+Row[15, Thu Nov 23 16:16:20 WET 2023, kane9, Show de Kane, liga alema, Goleada Magnifica ao Dortmund, [football, goals, highlights]]
+Row[15, Thu Nov 23 16:22:19 WET 2023, kane9, Show de Kane, liga alema, Goleada Magnifica ao Dortmund, [football, goals, highlights]]
+Row[15, Thu Nov 23 22:31:09 WET 2023, kane9, Show de Kane, liga alema, Goleada Magnifica ao Dortmund, [football, goals, highlights]]
+Row[7, Thu Nov 16 15:14:56 WET 2023, debruyne17, De Bruyne, o maestro, Assistências incríveis, [assists, football]]
+Row[6, Thu Nov 16 15:14:56 WET 2023, salah11, Salah lidera o ataque, Gols decisivos, [football, highlights]]
+Row[9, Thu Nov 16 15:14:56 WET 2023, modric10, Modric, o cérebro da equipa, Controle de jogo, [football, skills]]
+Row[14, Thu Nov 16 15:14:56 WET 2023, lewandowski9, Lewandowski comenta a partida, Entrevista pós-jogo, [football, interview]]
+Row[12, Thu Nov 16 15:14:56 WET 2023, cristianoronaldo, Ronaldo aprimorando suas técnicas, Treino de habilidades, [football, training]]
+Row[3, Thu Nov 16 15:14:56 WET 2023, neymar11, Show de Neymar em campo, Gols e assistências, [football, highlights]]
+12. Listar todos os comentarios de um utilizador, ordenados inversamente pela data
+Row[kane9, Thu Nov 16 15:14:56 WET 2023, jogas tanto com a bola nos pes, 3]
+Row[kane9, Thu Nov 16 15:14:56 WET 2023, Es lindo rei, 13]
+Row[kane9, Thu Nov 16 15:14:56 WET 2023, Jogas tanto, 7]
+13. Listar a media de rating de cada video
+Row[10, 4]
+Row[1, 3]
+Row[8, 2]
+Row[2, 4]
+Row[7, 5]
+Row[6, 4]
+Row[9, 5]
+
+ *************************************

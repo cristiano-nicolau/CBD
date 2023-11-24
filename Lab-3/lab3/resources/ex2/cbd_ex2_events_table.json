@@ -1,0 +1,17 @@
+
+ [json]
+-------------------------------------------------------------------------------------------------------------------------------------------
+          {"id_video": 12, "username": "ramos4", "ts": "2023-11-16 15:14:56.743Z", "instant": "2023-11-16 15:14:56.744Z", "type": "pause"}
+ {"id_video": 7, "username": "cristianoronaldo", "ts": "2023-11-16 15:14:56.736Z", "instant": "2023-11-16 15:14:56.736Z", "type": "pause"}
+  {"id_video": 7, "username": "cristianoronaldo", "ts": "2023-11-16 15:14:56.737Z", "instant": "2023-11-16 15:14:56.737Z", "type": "play"}
+     {"id_video": 8, "username": "lewandowski9", "ts": "2023-11-16 15:14:56.750Z", "instant": "2023-11-16 15:14:56.750Z", "type": "pause"}
+          {"id_video": 3, "username": "salah11", "ts": "2023-11-16 15:14:56.752Z", "instant": "2023-11-16 15:14:56.752Z", "type": "pause"}
+          {"id_video": 6, "username": "messi10", "ts": "2023-11-16 15:14:56.747Z", "instant": "2023-11-16 15:14:56.747Z", "type": "pause"}
+       {"id_video": 4, "username": "debruyne17", "ts": "2023-11-16 15:14:56.756Z", "instant": "2023-11-16 15:14:56.756Z", "type": "pause"}
+         {"id_video": 9, "username": "neymar11", "ts": "2023-11-16 15:14:56.740Z", "instant": "2023-11-16 15:14:56.740Z", "type": "pause"}
+          {"id_video": 9, "username": "neymar11", "ts": "2023-11-16 15:14:56.742Z", "instant": "2023-11-16 15:14:56.742Z", "type": "play"}
+          {"id_video": 8, "username": "mbappe7", "ts": "2023-11-16 15:14:56.754Z", "instant": "2023-11-16 15:14:56.754Z", "type": "pause"}
+           {"id_video": 2, "username": "ramos4", "ts": "2023-11-16 15:14:56.745Z", "instant": "2023-11-16 15:14:56.745Z", "type": "pause"}
+            {"id_video": 1, "username": "kane9", "ts": "2023-11-16 15:14:56.748Z", "instant": "2023-11-16 15:14:56.748Z", "type": "pause"}
+
+(12 rows)

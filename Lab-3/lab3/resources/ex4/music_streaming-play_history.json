@@ -1,0 +1,27 @@
+
+ [json]
+------------------------------------------------------------------------------------------------
+              {"user_id": "U11", "play_date": "2020-11-01 00:00:00.000Z", "song_id": "FIX_YOU"}
+                 {"user_id": "U11", "play_date": "2021-01-15 00:00:00.000Z", "song_id": "FORM"}
+            {"user_id": "U11", "play_date": "2021-02-28 00:00:00.000Z", "song_id": "HYPOCRITE"}
+             {"user_id": "U11", "play_date": "2021-03-15 00:00:00.000Z", "song_id": "TITANIUM"}
+          {"user_id": "U11", "play_date": "2021-04-20 00:00:00.000Z", "song_id": "WITHOUT_YOU"}
+ {"user_id": "U11", "play_date": "2021-05-05 00:00:00.000Z", "song_id": "DONTS_LEAVE_ME_ALONE"}
+          {"user_id": "U11", "play_date": "2021-06-10 00:00:00.000Z", "song_id": "SAY_MY_NAME"}
+          {"user_id": "U11", "play_date": "2021-07-15 00:00:00.000Z", "song_id": "I_DONT_CARE"}
+              {"user_id": "U11", "play_date": "2021-11-15 00:00:00.000Z", "song_id": "CONTROL"}
+                 {"user_id": "U11", "play_date": "2021-12-01 00:00:00.000Z", "song_id": "TRIP"}
+        {"user_id": "U3", "play_date": "2021-05-15 00:00:00.000Z", "song_id": "HOMETOWN_GLORY"}
+                {"user_id": "U2", "play_date": "2021-10-15 00:00:00.000Z", "song_id": "YELLOW"}
+     {"user_id": "U9", "play_date": "2021-04-30 00:00:00.000Z", "song_id": "CHASING_PAVEMENTS"}
+                 {"user_id": "U10", "play_date": "2021-03-25 00:00:00.000Z", "song_id": "TALK"}
+          {"user_id": "U8", "play_date": "2021-09-25 00:00:00.000Z", "song_id": "SEND_MY_LOVE"}
+      {"user_id": "U5", "play_date": "2021-07-05 00:00:00.000Z", "song_id": "SOMEONE_LIKE_YOU"}
+                 {"user_id": "U7", "play_date": "2021-08-10 00:00:00.000Z", "song_id": "HELLO"}
+          {"user_id": "U1", "play_date": "2021-10-30 00:00:00.000Z", "song_id": "SHAPE_OF_YOU"}
+           {"user_id": "U4", "play_date": "2020-12-05 00:00:00.000Z", "song_id": "IN_MY_PLACE"}
+         {"user_id": "U4", "play_date": "2021-01-20 00:00:00.000Z", "song_id": "THE_SCIENTIST"}
+        {"user_id": "U4", "play_date": "2021-02-10 00:00:00.000Z", "song_id": "SPEED_OF_SOUND"}
+   {"user_id": "U6", "play_date": "2021-06-20 00:00:00.000Z", "song_id": "ROLLING_IN_THE_DEEP"}
+
+(22 rows)

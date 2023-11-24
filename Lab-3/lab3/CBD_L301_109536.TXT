@@ -1,0 +1,295 @@
+cqlsh> DESCRIBE keyspaces;
+
+system       system_distributed  system_traces  system_virtual_schema
+system_auth  system_schema       system_views 
+
+
+
+cqlsh> CREATE KEYSPACE learn_cassandra
+   ...   WITH REPLICATION = { 
+   ...    'class' : 'NetworkTopologyStrategy',
+   ...    'datacenter1' : 3 
+   ...   };
+
+
+
+cqlsh> CREATE TABLE learn_cassandra.users_by_country (
+   ...     country text,
+   ...     user_email text,
+   ...     first_name text,
+   ...     last_name text,
+   ...     age smallint,
+   ...     PRIMARY KEY ((country), user_email)
+   ... );
+
+
+
+cqlsh> INSERT INTO learn_cassandra.users_by_country (country,user_email,first_name,last_name,age)
+   ...   VALUES('US', 'john@email.com', 'John','Wick',55);
+cqlsh> INSERT INTO learn_cassandra.users_by_country (country,user_email,first_name,last_name,age)
+   ...   VALUES('UK', 'peter@email.com', 'Peter','Clark',65);
+cqlsh> INSERT INTO learn_cassandra.users_by_country (country,user_email,first_name,last_name,age)
+   ...   VALUES('UK', 'bob@email.com', 'Bob','Sandler',23);
+cqlsh> INSERT INTO learn_cassandra.users_by_country (country,user_email,first_name,last_name,age)
+   ...   VALUES('UK', 'alice@email.com', 'Alice','Brown',26);
+
+
+
+cqlsh> SELECT * FROM learn_cassandra.users_by_country WHERE country='US';
+
+ country | user_email     | age | first_name | last_name
+---------+----------------+-----+------------+-----------
+      US | john@email.com |  55 |       John |      Wick
+
+
+cqlsh> SELECT * FROM learn_cassandra.users_by_country WHERE country = 'UK'; 
+
+ country | user_email      | age | first_name | last_name
+---------+-----------------+-----+------------+-----------
+      UK | alice@email.com |  26 |      Alice |     Brown
+      UK |   bob@email.com |  23 |        Bob |   Sandler
+      UK | peter@email.com |  65 |      Peter |     Clark
+
+
+
+cqlsh> CREATE TABLE learn_cassandra.users_by_email (
+   ...     user_email text,
+   ...     country text,
+   ...     first_name text,
+   ...     last_name text,
+   ...     age smallint,
+   ...     PRIMARY KEY (user_email)
+   ... );
+
+cqlsh> INSERT INTO learn_cassandra.users_by_email (user_email, country,first_name,last_name,age)
+   ...   VALUES('john@email.com', 'US', 'John','Wick',55);
+cqlsh> INSERT INTO learn_cassandra.users_by_email (user_email,country,first_name,last_name,age)
+   ...   VALUES('peter@email.com', 'UK', 'Peter','Clark',65); 
+cqlsh> INSERT INTO learn_cassandra.users_by_email (user_email,country,first_name,last_name,age)
+   ...   VALUES('bob@email.com', 'UK', 'Bob','Sandler',23);
+cqlsh> INSERT INTO learn_cassandra.users_by_email (user_email,country,first_name,last_name,age)
+   ...   VALUES('alice@email.com', 'UK', 'Alice','Brown',26);
+
+cqlsh>  SELECT * FROM learn_cassandra.users_by_email WHERE user_email='alice@email.com';
+
+ user_email      | age | country | first_name | last_name
+-----------------+-----+---------+------------+-----------
+ alice@email.com |  26 |      UK |      Alice |     Brown
+
+
+
+cqlsh> SELECT * FROM learn_cassandra.users_by_email WHERE age=26 ALLOW FILTERING;
+
+ user_email      | age | country | first_name | last_name
+-----------------+-----+---------+------------+-----------
+ alice@email.com |  26 |      UK |      Alice |     Brown
+
+
+
+cqlsh> DESCRIBE TABLE learn_cassandra.users_by_country;
+
+CREATE TABLE learn_cassandra.users_by_country (
+    country text,
+    user_email text,
+    age smallint,
+    first_name text,
+    last_name text,
+    PRIMARY KEY (country, user_email)
+) WITH CLUSTERING ORDER BY (user_email ASC)
+    AND additional_write_policy = '99p'
+    AND bloom_filter_fp_chance = 0.01
+    AND caching = {'keys': 'ALL', 'rows_per_partition': 'NONE'}
+    AND cdc = false
+    AND comment = ''
+    AND compaction = {'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32', 'min_threshold': '4'}
+    AND compression = {'chunk_length_in_kb': '16', 'class': 'org.apache.cassandra.io.compress.LZ4Compressor'}
+    AND memtable = 'default'
+    AND crc_check_chance = 1.0
+    AND default_time_to_live = 0
+    AND extensions = {}
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair = 'BLOCKING'
+    AND speculative_retry = '99p';
+
+
+
+cqlsh> CREATE TABLE learn_cassandra.users_by_country_sorted_by_age_asc (
+   ...     country text,
+   ...     user_email text,
+   ...     first_name text,
+   ...     last_name text,
+   ...     age smallint,
+   ...     PRIMARY KEY ((country), age, user_email)
+   ... ) WITH CLUSTERING ORDER BY (age ASC);
+
+cqlsh> INSERT INTO learn_cassandra.users_by_country_sorted_by_age_asc (country,user_email,first_name,last_name,age)
+   ...   VALUES('US','john@email.com', 'John','Wick',10);
+cqlsh> INSERT INTO learn_cassandra.users_by_country_sorted_by_age_asc (country,user_email,first_name,last_name,age)
+   ...   VALUES('UK', 'peter@email.com', 'Peter','Clark',30);
+cqlsh> INSERT INTO learn_cassandra.users_by_country_sorted_by_age_asc (country,user_email,first_name,last_name,age)
+   ...   VALUES('UK', 'bob@email.com', 'Bob','Sandler',20);
+cqlsh> INSERT INTO learn_cassandra.users_by_country_sorted_by_age_asc (country,user_email,first_name,last_name,age)
+   ...   VALUES('UK', 'alice@email.com', 'Alice','Brown',40);
+
+
+cqlsh> SELECT * FROM learn_cassandra.users_by_country_sorted_by_age_asc;
+
+ country | age | user_email      | first_name | last_name
+---------+-----+-----------------+------------+-----------
+      US |  10 |  john@email.com |       John |      Wick
+      UK |  20 |   bob@email.com |        Bob |   Sandler
+      UK |  30 | peter@email.com |      Peter |     Clark
+      UK |  40 | alice@email.com |      Alice |     Brown
+
+
+
+cqlsh> CREATE TABLE learn_cassandra.todo_by_user_email (
+   ...     user_email text,
+   ...     name text,
+   ...     creation_date timestamp,
+   ...     PRIMARY KEY ((user_email), creation_date)
+   ... ) WITH CLUSTERING ORDER BY (creation_date DESC)
+   ... AND compaction = { 'class' :  'LeveledCompactionStrategy'  };
+
+
+cqlsh> CREATE TABLE learn_cassandra.todos_shared_by_source_user_email (
+   ...     target_user_email text,
+   ...     source_user_email text,
+   ...     creation_date timestamp,
+   ...     name text,
+   ...     PRIMARY KEY ((source_user_email), creation_date)
+   ... ) WITH CLUSTERING ORDER BY (creation_date DESC)
+   ... AND compaction = { 'class' :  'LeveledCompactionStrategy'  };
+
+
+cqlsh> CREATE TABLE learn_cassandra.todos_shared_by_target_user_email (
+   ...     target_user_email text,
+   ...     source_user_email text,
+   ...     creation_date timestamp,
+   ...     name text,
+   ...     PRIMARY KEY ((target_user_email), creation_date)
+   ... ) WITH CLUSTERING ORDER BY (creation_date DESC)
+   ... AND compaction = { 'class' :  'LeveledCompactionStrategy'  };
+
+
+cqlsh> BEGIN BATCH
+   ...   INSERT INTO learn_cassandra.todo_by_user_email (user_email,creation_date,name) VALUES('alice@email.com', toTimestamp(now()), 'My first todo entry')
+   ... 
+   ...   INSERT INTO learn_cassandra.todos_shared_by_target_user_email (target_user_email, source_user_email,creation_date,name) VALUES('bob@email.com', 'alice@email.com',toTimestamp(now()), 'My first todo entry')
+   ... 
+   ...   INSERT INTO learn_cassandra.todos_shared_by_source_user_email (target_user_email, source_user_email,creation_date,name) VALUES('alice@email.com', 'bob@email.com', toTimestamp(now()), 'My first todo entry')
+   ... 
+   ... APPLY BATCH;
+
+
+cqlsh> SELECT * FROM learn_cassandra.todos_shared_by_target_user_email WHERE target_user_email='bob@email.com'
+   ... ;
+
+ target_user_email | creation_date                   | name                | source_user_email
+-------------------+---------------------------------+---------------------+-------------------
+     bob@email.com | 2023-11-09 10:09:03.868000+0000 | My first todo entry |   alice@email.com
+
+
+cqlsh> INSERT INTO learn_cassandra.todo_by_user_email (user_email,creation_date,name) VALUES('john@email.com', toTimestamp(now()), 'This entry should be removed soon') USING TTL 60;
+cqlsh> SELECT * FROM learn_cassandra.todo_by_user_email WHERE user_email='john@email.com';
+
+ user_email     | creation_date                   | name
+----------------+---------------------------------+-----------------------------------
+ john@email.com | 2023-11-09 10:10:23.285000+0000 | This entry should be removed soon
+
+
+
+cqlsh>  SELECT TTL(name) FROM learn_cassandra.todo_by_user_email WHERE user_email='john@email.com';
+
+ ttl(name)
+-----------
+        35
+
+
+
+cqlsh>  INSERT INTO learn_cassandra.todo_by_user_email (user_email, creation_date, name) VALUES('john@email.com', '2021-03-14 16:07:19.622+0000', 'Insert query');
+
+cqlsh> SELECT * FROM learn_cassandra.todo_by_user_email ;
+
+ user_email      | creation_date                   | name
+-----------------+---------------------------------+---------------------
+  john@email.com | 2021-03-14 16:07:19.622000+0000 |        Insert query
+ alice@email.com | 2023-11-09 10:09:03.867000+0000 | My first todo entry
+
+
+cqlsh> UPDATE learn_cassandra.todo_by_user_email SET 
+   ...     name = 'Update query'
+   ...   WHERE user_email = 'john@email.com' AND creation_date = '2021-03-14 16:10:19.622+0000';
+
+cqlsh> SELECT * FROM learn_cassandra.todo_by_user_email ;
+
+ user_email      | creation_date                   | name
+-----------------+---------------------------------+---------------------
+  john@email.com | 2021-03-14 16:10:19.622000+0000 |        Update query
+  john@email.com | 2021-03-14 16:07:19.622000+0000 |        Insert query
+ alice@email.com | 2023-11-09 10:09:03.867000+0000 | My first todo entry
+
+
+cqlsh>   INSERT INTO learn_cassandra.todo_by_user_email (user_email,creation_date,name) VALUES('john@email.com', '2021-03-14 16:07:19.622+0000', 'Insert query updated');
+cqlsh> SELECT * FROM learn_cassandra.todo_by_user_email ;
+
+ user_email      | creation_date                   | name
+-----------------+---------------------------------+----------------------
+  john@email.com | 2021-03-14 16:10:19.622000+0000 |         Update query
+  john@email.com | 2021-03-14 16:07:19.622000+0000 | Insert query updated
+ alice@email.com | 2023-11-09 10:09:03.867000+0000 |  My first todo entry
+
+cqlsh> DROP TABLE learn_cassandra.todo_by_user_email ;
+
+
+
+cqlsh> use learn_cassandra ;
+
+cqlsh:learn_cassandra> CREATE TABLE data(name text PRIMARY KEY, email list<text>);
+
+cqlsh:learn_cassandra>  INSERT INTO data(name, email) VALUES ('ramu', ['abc@gmail.com','cba@yahoo.com']) ;
+
+cqlsh:learn_cassandra> UPDATE data SET email = email +['xyz@tutorialspoint.com'] where name = 'ramu';
+
+cqlsh:learn_cassandra> SELECT * FROM data;
+
+ name | email
+------+--------------------------------------------------------------
+ ramu | ['abc@gmail.com', 'cba@yahoo.com', 'xyz@tutorialspoint.com']
+
+
+
+cqlsh:learn_cassandra> CREATE TABLE data2 (name text PRIMARY KEY, phone set<varint>);
+
+cqlsh:learn_cassandra> INSERT INTO data2(name, phone)VALUES ('rahman',    {9848022338,9848022339});
+
+cqlsh:learn_cassandra>  UPDATE data2 SET phone = phone + {9848022330} where name = 'rahman';
+
+cqlsh:learn_cassandra> SELECT * FROM data2;
+
+ name   | phone
+--------+--------------------------------------
+ rahman | {9848022330, 9848022338, 9848022339}
+
+
+
+cqlsh:learn_cassandra> CREATE TABLE data3 (name text PRIMARY KEY, address map<text, text>);
+
+cqlsh:learn_cassandra>  INSERT INTO data3(name, address)VALUES ('ramu', {'street' : '1 Main street', 'city' : 'San Jose', 'zip' : '95112'});
+
+cqlsh:learn_cassandra>  UPDATE data3 SET address = address + {'country' : 'USA'} where name = 'ramu';
+
+cqlsh:learn_cassandra> SELECT * FROM data3;
+
+ name | address
+------+-----------------------------------------------------------------------------------
+ ramu | {'city': 'San Jose', 'country': 'USA', 'street': '1 Main street', 'zip': '95112'}
+
+cqlsh:learn_cassandra> DROP TABLE data3;
+
+cqlsh> DROP keyspace learn_cassandra ;
+
+cqlsh> DESCRIBE keyspaces;

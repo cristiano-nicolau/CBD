@@ -1,0 +1,16 @@
+
+ [json]
+-----------------------------------------------------------------------------------------------------------------------------------
+                 {"username": "salah11", "email": "salah@football.com", "name": "Mohamed Salah", "ts": "2023-11-16 15:14:56.623Z"}
+                {"username": "mbappe7", "email": "mbappe@football.com", "name": "Kylian Mbappe", "ts": "2023-11-16 15:14:56.618Z"}
+ {"username": "lewandowski9", "email": "lewandowski@football.com", "name": "Robert Lewandowski", "ts": "2023-11-16 15:14:56.620Z"}
+                  {"username": "neymar11", "email": "neymar@football.com", "name": "Neymar Jr.", "ts": "2023-11-16 15:14:56.614Z"}
+  {"username": "cristianoronaldo", "email": "ronaldo@football.com", "name": "Cristiano Ronaldo", "ts": "2023-11-16 15:14:56.602Z"}
+                   {"username": "ramos4", "email": "ramos@football.com", "name": "Sergio Ramos", "ts": "2023-11-16 15:14:56.630Z"}
+              {"username": "diogo99", "email": "diogocosta@football.com", "name": "Diogo Costa", "ts": "2023-11-16 15:14:56.632Z"}
+                 {"username": "modric10", "email": "modric@football.com", "name": "Luka Modric", "ts": "2023-11-16 15:14:56.628Z"}
+                       {"username": "kane9", "email": "kane@football.com", "name": "Harry Kane", "ts": "2023-11-16 15:14:56.626Z"}
+                  {"username": "messi10", "email": "messi@football.com", "name": "Lionel Messi", "ts": "2023-11-16 15:14:56.608Z"}
+         {"username": "debruyne17", "email": "debruyne@football.com", "name": "Kevin De Bruyne", "ts": "2023-11-16 15:14:56.625Z"}
+
+(11 rows)
