@@ -9,6 +9,7 @@ CREATE TABLE IF NOT EXISTS artists (
     albums LIST<TEXT>
 );
 
+
 CREATE TABLE IF NOT EXISTS albums (
     album_id text PRIMARY KEY,
     title TEXT,
@@ -25,6 +26,15 @@ CREATE TABLE IF NOT EXISTS songs (
     album_id text
 );
 
+
+CREATE TABLE IF NOT EXISTS playlists (
+    playlist_id text PRIMARY KEY,
+    title TEXT,
+    user_id text,
+    songs LIST<text>
+);
+
+
 CREATE TABLE IF NOT EXISTS users (
     user_id text PRIMARY KEY,
     username TEXT,
@@ -40,6 +50,11 @@ CREATE TABLE IF NOT EXISTS play_history (
 );
 
 
+
 CREATE INDEX IF NOT EXISTS idx_artist_id ON songs (artist_id);
 
 CREATE INDEX IF NOT EXISTS idx_album_id ON songs (album_id);
+
+CREATE INDEX IF NOT EXISTS idx_genres ON artists (genres);
+
+CREATE INDEX IF NOT EXISTS idx_user_id ON playlists (user_id);

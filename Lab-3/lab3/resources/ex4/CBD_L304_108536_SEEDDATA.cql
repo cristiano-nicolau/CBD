@@ -118,7 +118,25 @@ INSERT INTO users (user_id, username, email, playlists) VALUES ('U9', 'user9', '
 INSERT INTO users (user_id, username, email, playlists) VALUES ('U10', 'user10', 'user10@email.com', {1: 'Dance Party', 2: 'Road Trip Mix'});
 INSERT INTO users (user_id, username, email, playlists) VALUES ('U11', 'Nico', 'cristianonicolau@ua.com', {1: 'Tecno Party', 2: 'bater chinelo noite toda'});
 
-
+-- Inserir playlists
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U11-2', 'bater chinelo noite toda', 'U11', ['FIX_YOU', 'YELLOW']);
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U11-1', 'Tecno Party', 'U11', ['CONTROL', 'TRIP', 'FORM', 'HYPOCRITE']);
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U10-1', 'Dance Party', 'U10', ['I_DONT_CARE', 'BEAUTIFUL_PEOPLE', 'ROAR', 'DARK_HORSE']);
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U3-1', 'Rock Classics', 'U3', ['HELLO', 'SEND_MY_LOVE', 'SHAPE_OF_YOU', 'CASTLE_ON_THE_HILL']);
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U3-2', 'Chill Out', 'U3', ['I_DONT_CARE', 'BEAUTIFUL_PEOPLE', 'ROAR', 'DARK_HORSE']);
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U4-1', 'Hip Hop Vibes', 'U4', ['HELLO', 'SEND_MY_LOVE', 'SHAPE_OF_YOU', 'CASTLE_ON_THE_HILL']);
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U4-2', 'Summer Hits', 'U4', ['I_DONT_CARE', 'BEAUTIFUL_PEOPLE', 'ROAR', 'DARK_HORSE']);
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U5-1', 'Indie Jams', 'U5', ['HELLO', 'SEND_MY_LOVE', 'SHAPE_OF_YOU', 'CASTLE_ON_THE_HILL']);
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U5-2', 'Study Beats', 'U5', ['I_DONT_CARE', 'BEAUTIFUL_PEOPLE', 'ROAR', 'DARK_HORSE']);
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U6-1', 'Classical Moments', 'U6', ['HELLO', 'SEND_MY_LOVE', 'SHAPE_OF_YOU', 'CASTLE_ON_THE_HILL']);
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U6-2', 'Late Night Jazz', 'U6', ['I_DONT_CARE', 'BEAUTIFUL_PEOPLE', 'ROAR', 'DARK_HORSE']);
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U7-1', 'Reggae Vibes', 'U7', ['HELLO', 'SEND_MY_LOVE', 'SHAPE_OF_YOU', 'CASTLE_ON_THE_HILL']);
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U7-2', 'Latin Party', 'U7', ['I_DONT_CARE', 'BEAUTIFUL_PEOPLE', 'ROAR', 'DARK_HORSE']);
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U8-1', 'Electronic Bliss', 'U8', ['HELLO', 'SEND_MY_LOVE', 'SHAPE_OF_YOU', 'CASTLE_ON_THE_HILL']);
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U8-2', 'Gaming Tunes', 'U8', ['I_DONT_CARE', 'BEAUTIFUL_PEOPLE', 'ROAR', 'DARK_HORSE']);
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U9-1', 'R&B Hits', 'U9', ['HELLO', 'SEND_MY_LOVE', 'SHAPE_OF_YOU', 'CASTLE_ON_THE_HILL']);
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U9-2', 'Soulful Sundays', 'U9', ['I_DONT_CARE', 'BEAUTIFUL_PEOPLE', 'ROAR', 'DARK_HORSE']);
+INSERT INTO playlists (playlist_id, title, user_id, songs) VALUES ('U10-1', 'Road Trip Mix', 'U10', ['HELLO', 'SEND_MY_LOVE', 'SHAPE_OF_YOU', 'CASTLE_ON_THE_HILL']);
 
 -- Inserir histórico de reprodução
 INSERT INTO play_history (user_id, song_id, play_date) VALUES ('U11', 'FIX_YOU', '2020-11-01');
@@ -143,3 +161,4 @@ INSERT INTO play_history (user_id, song_id, play_date) VALUES ('U11', 'WITHOUT_Y
 INSERT INTO play_history (user_id, song_id, play_date) VALUES ('U11', 'DONTS_LEAVE_ME_ALONE', '2021-05-05');
 INSERT INTO play_history (user_id, song_id, play_date) VALUES ('U11', 'SAY_MY_NAME', '2021-06-10');
 INSERT INTO play_history (user_id, song_id, play_date) VALUES ('U11', 'I_DONT_CARE', '2021-07-15');
+

@@ -1,0 +1,23 @@
+
+ [json]
+ --------------------------------------------------------------------------------------------------------------------------------------------------
+            {"playlist_id": "U8-2", "songs": ["I_DONT_CARE", "BEAUTIFUL_PEOPLE", "ROAR", "DARK_HORSE"], "title": "Gaming Tunes", "user_id": "U8"}
+  {"playlist_id": "U8-1", "songs": ["HELLO", "SEND_MY_LOVE", "SHAPE_OF_YOU", "CASTLE_ON_THE_HILL"], "title": "Electronic Bliss", "user_id": "U8"}
+     {"playlist_id": "U4-1", "songs": ["HELLO", "SEND_MY_LOVE", "SHAPE_OF_YOU", "CASTLE_ON_THE_HILL"], "title": "Hip Hop Vibes", "user_id": "U4"}
+   {"playlist_id": "U10-1", "songs": ["HELLO", "SEND_MY_LOVE", "SHAPE_OF_YOU", "CASTLE_ON_THE_HILL"], "title": "Road Trip Mix", "user_id": "U10"}
+        {"playlist_id": "U5-1", "songs": ["HELLO", "SEND_MY_LOVE", "SHAPE_OF_YOU", "CASTLE_ON_THE_HILL"], "title": "Indie Jams", "user_id": "U5"}
+             {"playlist_id": "U4-2", "songs": ["I_DONT_CARE", "BEAUTIFUL_PEOPLE", "ROAR", "DARK_HORSE"], "title": "Summer Hits", "user_id": "U4"}
+         {"playlist_id": "U9-2", "songs": ["I_DONT_CARE", "BEAUTIFUL_PEOPLE", "ROAR", "DARK_HORSE"], "title": "Soulful Sundays", "user_id": "U9"}
+ {"playlist_id": "U6-1", "songs": ["HELLO", "SEND_MY_LOVE", "SHAPE_OF_YOU", "CASTLE_ON_THE_HILL"], "title": "Classical Moments", "user_id": "U6"}
+         {"playlist_id": "U6-2", "songs": ["I_DONT_CARE", "BEAUTIFUL_PEOPLE", "ROAR", "DARK_HORSE"], "title": "Late Night Jazz", "user_id": "U6"} 
+                             {"playlist_id": "U11-1", "songs": ["CONTROL", "TRIP", "FORM", "HYPOCRITE"], "title": "Tecno Party", "user_id": "U11"}
+      {"playlist_id": "U7-1", "songs": ["HELLO", "SEND_MY_LOVE", "SHAPE_OF_YOU", "CASTLE_ON_THE_HILL"], "title": "Reggae Vibes", "user_id": "U7"}
+     {"playlist_id": "U3-1", "songs": ["HELLO", "SEND_MY_LOVE", "SHAPE_OF_YOU", "CASTLE_ON_THE_HILL"], "title": "Rock Classics", "user_id": "U3"}
+          {"playlist_id": "U9-1", "songs": ["HELLO", "SEND_MY_LOVE", "SHAPE_OF_YOU", "CASTLE_ON_THE_HILL"], "title": "R&B Hits", "user_id": "U9"}
+                                   {"playlist_id": "U11-2", "songs": ["FIX_YOU", "YELLOW"], "title": "bater chinelo noite toda", "user_id": "U11"}
+               {"playlist_id": "U3-2", "songs": ["I_DONT_CARE", "BEAUTIFUL_PEOPLE", "ROAR", "DARK_HORSE"], "title": "Chill Out", "user_id": "U3"}
+             {"playlist_id": "U7-2", "songs": ["I_DONT_CARE", "BEAUTIFUL_PEOPLE", "ROAR", "DARK_HORSE"], "title": "Latin Party", "user_id": "U7"}
+             {"playlist_id": "U5-2", "songs": ["I_DONT_CARE", "BEAUTIFUL_PEOPLE", "ROAR", "DARK_HORSE"], "title": "Study Beats", "user_id": "U5"}
+
+
+(33 rows)
