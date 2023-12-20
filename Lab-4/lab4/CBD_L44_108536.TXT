@@ -1,0 +1,92 @@
+Query 1: Apresente o número total de livros existentes na base de dados.
+591
+
+Query 2: Apresente as informaçoes de 20 livros
+Harry Potter and the Half-Blood Prince (Harry Potter  #6) - 4.57 - 0439785960
+Harry Potter and the Order of the Phoenix (Harry Potter  #5) - 4.49 - 0439358078
+Harry Potter and the Chamber of Secrets (Harry Potter  #2) - 4.42 - 0439554896
+Harry Potter and the Prisoner of Azkaban (Harry Potter  #3) - 4.56 - 043965548X
+Harry Potter Boxed Set  Books 1-5 (Harry Potter  #1-5) - 4.78 - 0439682584
+Unauthorized Harry Potter Book Seven News: Half-Blood Prince Analysis and Speculation - 3.74 - 0976540606
+Harry Potter Collection (Harry Potter  #1-6) - 4.73 - 0439827604
+The Ultimate Hitchhiker's Guide: Five Complete Novels and One Story (Hitchhiker's Guide to the Galaxy  #1-5) - 4.38 - 0517226952
+The Ultimate Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1-5) - 4.38 - 0345453743
+The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1) - 4.22 - 1400052920
+The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1) - 4.22 - 0739322206
+The Ultimate Hitchhiker's Guide (Hitchhiker's Guide to the Galaxy  #1-5) - 4.38 - 0517149257
+A Short History of Nearly Everything - 4.21 - 076790818X
+Bill Bryson's African Diary - 3.44 - 0767915062
+Bryson's Dictionary of Troublesome Words: A Writer's Guide to Getting It Right - 3.87 - 0767910435
+In a Sunburned Country - 4.07 - 0767903862
+I'm a Stranger Here Myself: Notes on Returning to America After Twenty Years Away - 3.90 - 076790382X
+The Lost Continent: Travels in Small Town America - 3.83 - 0060920084
+Neither Here nor There: Travels in Europe - 3.86 - 0380713802
+Notes from a Small Island - 3.91 - 0380727501
+
+Query 3: Apresente as informaçoes dos 10 Livros  com maior ranking médio.
+Harry Potter Boxed Set  Books 1-5 (Harry Potter  #1-5) - 4.78
+Harry Potter Collection (Harry Potter  #1-6) - 4.73
+The 5 Love Languages / The 5 Love Languages Journal - 4.70
+Dionysiac Poetics and Euripides' Bacchae - 4.62
+100 Years of Lynchings - 4.61
+J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings - 4.59
+The Lord of the Rings: The Art of the Fellowship of the Ring - 4.59
+Harry Potter and the Half-Blood Prince (Harry Potter  #6) - 4.57
+Fullmetal Alchemist  Vol. 9 (Fullmetal Alchemist  #9) - 4.57
+Fullmetal Alchemist  Vol. 8 (Fullmetal Alchemist  #8) - 4.57
+
+Query 4: Apresente o número total de autores distintos.
+423
+
+Query 5: Apresente as informaçoes dos Livros com ISBN contendo '007'.
+Always Enough: God's Miraculous Provision Among the Poorest Children on Earth - 0800793617
+What to Sell on ebay and Where to Get It: The Definitive Guide to Product Sourcing for eBay and Beyond - 0072262788
+The Plot Against America - 1400079497
+Four Plays: The Clouds/The Birds/Lysistrata/The Frogs - 0452007178
+Cliffs Notes on Aristophanes' Lysistrata  The Birds  The Clouds  The Frogs - 0822007762
+
+Query 6: Apresente os livros com mais de 1000 páginas e média de avaliação superior a 4.5
+Harry Potter Boxed Set  Books 1-5 (Harry Potter  #1-5) - 2690 - 4.78
+Harry Potter Collection (Harry Potter  #1-6) - 3342 - 4.73
+J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings - 1728 - 4.59
+The Power Broker: Robert Moses and the Fall of New York - 1344 - 4.51
+
+Query 7: Apresente os livros escritos por J.K. Rowling.
+Harry Potter Collection (Harry Potter  #1-6)
+Harry Potter and the Chamber of Secrets (Harry Potter  #2)
+
+Query 8: Apresente os livros escritos por J.K. Rowling com mais de 400 páginas.
+Harry Potter Collection (Harry Potter  #1-6) - 3342
+
+Query 9: Apresente os livros escritos por Bill Bryson com avaliação média superior a 4.0.
+In a Sunburned Country - 4.07
+A Short History of Nearly Everything - 4.21
+
+Query 10: Apresente os livros com avaliação média entre 4.5 e 5.
+Harry Potter and the Half-Blood Prince (Harry Potter  #6) - 4.57
+Harry Potter and the Prisoner of Azkaban (Harry Potter  #3) - 4.56
+Harry Potter Boxed Set  Books 1-5 (Harry Potter  #1-5) - 4.78
+Harry Potter Collection (Harry Potter  #1-6) - 4.73
+J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings - 4.59
+The Lord of the Rings (The Lord of the Rings  #1-3) - 4.50
+The Lord of the Rings (The Lord of the Rings  #1-3) - 4.50
+The Lord of the Rings: Weapons and Warfare - 4.53
+The Lord of the Rings: Complete Visual Companion - 4.50
+The Lord of the Rings: The Art of the Fellowship of the Ring - 4.59
+100 Years of Lynchings - 4.61
+The Gettysburg Address - 4.53
+We Tell Ourselves Stories in Order to Live: Collected Nonfiction - 4.50
+Fullmetal Alchemist  Vol. 9 (Fullmetal Alchemist  #9) - 4.57
+Fullmetal Alchemist  Vol. 3 (Fullmetal Alchemist  #3) - 4.56
+Fullmetal Alchemist  Vol. 8 (Fullmetal Alchemist  #8) - 4.57
+Fullmetal Alchemist  Vol. 1 (Fullmetal Alchemist  #1) - 4.50
+Fullmetal Alchemist  Vol. 4 (Fullmetal Alchemist  #4) - 4.55
+Fullmetal Alchemist  Vol. 2 (Fullmetal Alchemist  #2) - 4.52
+The 5 Love Languages / The 5 Love Languages Journal - 4.70
+The Power Broker: Robert Moses and the Fall of New York - 4.51
+Enthusiasm and Divine Madness - 4.50
+The Complete Pelican Shakespeare - 4.50
+The Complete Works - 4.50
+Thucydides  Book 6 Commentary - 4.50
+Metamorphoses: Volume 2  Books IX-XV - 4.52
+Dionysiac Poetics and Euripides' Bacchae - 4.62
